@@ -48,3 +48,14 @@ Description: "Claimresponse profile for use in the different eAgreement flows fr
 * addItem.productOrService.coding.system 1..
 * addItem.productOrService.coding.code 1..
 * addItem.adjudication ..1 MS
+* obeys be-rule-eagreementclaimresponse-1 and be-rule-eagreementclaimresponse-2
+
+Invariant: be-rule-eagreementclaimresponse-1
+Description: "Billable period start and end SHALL be YYYY-MM-DD"
+Expression: "(ClaimResponse.billablePeriod.start.exists() implies ClaimResponse.billablePeriod.start.length()=10) and (ClaimResponse.billablePeriod.end.exists() implies Claim.billablePeriod.end.length()=10)"
+Severity: #error
+
+Invariant: be-rule-eagreementclaimresponse-2
+Description: "Created SHALL be YYYY-MM-DDThh:mm:ss+zz:zz"
+Expression: "ClaimResponse.created.length()=25"
+Severity: #error

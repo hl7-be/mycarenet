@@ -6,8 +6,17 @@ id: hl7.fhir.be.mycarenet
 name: Belgian MyCareNet Profiles (V1.0)
 title: Belgian MyCareNet Profiles (V1.0)
 status: active
-version: "1.0"
+version: 2.0.0
 copyrightYear: 2022+
 releaseLabel: STU
+jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 dependencies:
   hl7.fhir.be.core: 2.0.0
+
+parameters:
+  shownav: 'true'
+  apply-contact: 'true'
+  apply-jurisdiction: 'true'
+  apply-publisher: 'true'
+  apply-version: 'true'  
+

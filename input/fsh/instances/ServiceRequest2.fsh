@@ -13,4 +13,4 @@ Usage: #inline
 * subject = Reference(Patient/Patient1)
 * authoredOn = "2015-07-10"
 * requester = Reference(PractitionerRole/PractitionerRole2)
-* supportingInfo = Reference(annexSR2)
+* supportingInfo = Reference(Binary/annexSR2)

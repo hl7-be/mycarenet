@@ -13,3 +13,5 @@ Usage: #example
 * entry[=].resource = Practitioner1
 * entry[+].fullUrl = "urn:uuid:03972cc4-d781-4285-8d79-0f05810e1939"
 * entry[=].resource = SearchBundleResponse1
+* entry[+].fullUrl = "urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"
+* entry[=].resource = Patient1
