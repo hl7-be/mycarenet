@@ -51,8 +51,8 @@ Description: "Claimresponse profile for use in the different eAgreement flows fr
 * obeys be-rule-eagreementclaimresponse-1 and be-rule-eagreementclaimresponse-2
 
 Invariant: be-rule-eagreementclaimresponse-1
-Description: "Billable period start and end SHALL be YYYY-MM-DD"
-Expression: "(ClaimResponse.billablePeriod.start.exists() implies ClaimResponse.billablePeriod.start.length()=10) and (ClaimResponse.billablePeriod.end.exists() implies Claim.billablePeriod.end.length()=10)"
+Description: "preAuthPeriod start and end SHALL be YYYY-MM-DD"
+Expression: "(ClaimResponse.preAuthPeriod.exists() implies ClaimResponse.preAuthPeriod.start.length()=10) and (ClaimResponse.preAuthPeriod.end.exists() implies ClaimResponse.preAuthPeriod.end.length()=10)"
 Severity: #error
 
 Invariant: be-rule-eagreementclaimresponse-2
