@@ -70,3 +70,14 @@ Description: "Claim profile for use in the different eAgreement flow from MyCare
 * item.productOrService.coding.system 1..
 * item.productOrService.coding.code 1..
 * item.serviced[x] only date
+* obeys be-rule-eagreementclaim-1 and be-rule-eagreementclaim-2
+
+Invariant: be-rule-eagreementclaim-1
+Description: "Billable period start and end SHALL be YYYY-MM-DD"
+Expression: "(Claim.billablePeriod.start.exists() implies Claim.billablePeriod.start.length()=10) and (Claim.billablePeriod.end.exists() implies Claim.billablePeriod.end.length()=10)"
+Severity: #error
+
+Invariant: be-rule-eagreementclaim-2
+Description: "Created SHALL be YYYY-MM-DDThh:mm:ss+zz:zz"
+Expression: "Claim.created.length()=25"
+Severity: #error
