@@ -47,7 +47,7 @@ Description: "Claimresponse profile for use in the different eAgreement flows fr
 * addItem.productOrService.coding 1..1
 * addItem.productOrService.coding.system 1..
 * addItem.productOrService.coding.code 1..
-* addItem.adjudication ..1 MS
+* addItem.adjudication ..* MS
 * obeys be-rule-eagreementclaimresponse-1 and be-rule-eagreementclaimresponse-2
 
 Invariant: be-rule-eagreementclaimresponse-1
