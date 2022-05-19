@@ -52,10 +52,10 @@ Description: "Claimresponse profile for use in the different eAgreement flows fr
 
 Invariant: be-rule-eagreementclaimresponse-1
 Description: "preAuthPeriod start and end SHALL be YYYY-MM-DD"
-Expression: "(ClaimResponse.preAuthPeriod.exists() implies ClaimResponse.preAuthPeriod.start.length()=10) and (ClaimResponse.preAuthPeriod.end.exists() implies ClaimResponse.preAuthPeriod.end.length()=10)"
+Expression: "(ClaimResponse.preAuthPeriod.exists() implies ClaimResponse.preAuthPeriod.start.toString().length()=10) and (ClaimResponse.preAuthPeriod.end.exists() implies ClaimResponse.preAuthPeriod.end.toString().length()=10)"
 Severity: #error
 
 Invariant: be-rule-eagreementclaimresponse-2
 Description: "Created SHALL be YYYY-MM-DDThh:mm:ss+zz:zz"
-Expression: "ClaimResponse.created.length()=25"
+Expression: "ClaimResponse.created.toString().length()=25"
 Severity: #error
