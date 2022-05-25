@@ -7,7 +7,6 @@ Usage: #inline
 * subType = $agreement-types#physiotherapy-fb
 * use = #preauthorization
 * patient = Reference(Patient/Patient1)
-* billablePeriod.start = "2020-01-15"
 * created = "2015-07-14T11:15:30+02:00"
 * enterer = Reference(PractitionerRole/PractitionerRole1)
 * provider = Reference(PractitionerRole/PractitionerRole1)
