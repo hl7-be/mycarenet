@@ -1,12 +1,54 @@
-<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
-	<p>
-    This provides a list of changes to the MyIG specification since its initial release
-  </p>
-  <a name="0.1.0"> </a>
-	<p>
-		<b>2099-01-01 v0.1.0 - My IG R1 (STU ballot 1) Ballot Candidate</b> based on FHIR R4
-  </p>
-  <ul>
-    <li>Initial version</li>
-  </ul>
+<div xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+   <p>This provides a list of changes to the specification since its initial release</p>
+
+   <p>
+      <b>2021-07-01 v1.0 - Published </b> based on FHIR R4</p>
+   <ul>
+      <li>First published release</li>
+      <li>This version adds FHIR profiles and their supporting FHIR artefacts for:
+         <ul>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycareneteagreementclaim" target="_blank">eAgreement Claim BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/mybemycareneteagreementclaimkine" target="_blank">eAgreement Claim Kine BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycareneteagreementclaimresponse" target="_blank">eAgreement Claim Response BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycareneteagreementconsult" target="_blank">eAgreement Consult Bundle BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycareneteagreementconsuleply" target="_blank">eAgreement Consult Reply Bundle BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycareneteagreementdemand" target="_blank">eAgreement Demand Bundle BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycareneteagreementdemandreply" target="_blank">eAgreement Demand Reply Bundle BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycareneteagreementservicerequest" target="_blank">eAgreement ServiceRequest BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycareneteagreementservicerequestbinary" target="_blank">eAgreement Service Request Binary BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycarenetmessageheader" target="_blank">MessageHeader BE profile</a>
+            </li>
+            <li>
+               <a href="https://simplifier.net/belgianmycarenetprofiles/bemycarenetoperationoutcome" target="_blank">operation outcome BE profile</a>
+            </li>
+         </ul>
+      </li>
+   </ul>
+   <p>
+      <b>2022-09-01 v2.0 - Published </b> based on FHIR R4</p>
+   <ul>
+      <li>This release aligns with the others releases on the new ehealth environment. Some canonicals have been modified to match the new environment. There are no other structural changes</li>
+      <li>You can find the new location of each profile <a href="./artifacts.html">here</a>.</li>
+      <li>Detailed releasenotes can be found <a href="https://github.com/hl7-be/mycarenet/releases/tag/v2.0.0">here</a></li>
+   </ul>
 </div>
