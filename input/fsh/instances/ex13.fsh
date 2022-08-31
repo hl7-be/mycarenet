@@ -1,5 +1,6 @@
 Instance: ex13
 InstanceOf: BeMyCareNetEagreementConsultReply
+Description: "Reply to a consult"
 Usage: #example
 * type = #message
 * timestamp = "2015-07-14T11:15:37+02:00"

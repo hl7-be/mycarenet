@@ -1,5 +1,6 @@
 Instance: ex03
 InstanceOf: BeMyCareNetEAgreementDemand
+Description: "Ask for a new agreement by a physiotherapist with patient identified by national registration number"
 Usage: #example
 * type = #message
 * timestamp = "2015-07-14T11:15:33+02:00"

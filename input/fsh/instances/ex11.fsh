@@ -1,5 +1,6 @@
 Instance: ex11
 InstanceOf: BeMyCareNetEAgreementDemand
+Description: "Argue an existing demand by a physiotherapist"
 Usage: #example
 * type = #message
 * timestamp = "2015-07-14T11:15:33+02:00"
