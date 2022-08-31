@@ -1,5 +1,6 @@
 Instance: ex07
 InstanceOf: BeMyCareNetEagreementDemandReply
+Description: "Reject the ask with a reject response"
 Usage: #example
 * type = #message
 * timestamp = "2015-07-14T11:15:37+02:00"

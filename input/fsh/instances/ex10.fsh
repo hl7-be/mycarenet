@@ -1,5 +1,6 @@
 Instance: ex10
 InstanceOf: BeMyCareNetEAgreementDemand
+Description: "Ask for an extension of an existing agreement by a physiotherapist"
 Usage: #example
 * type = #message
 * timestamp = "2015-07-14T11:15:33+02:00"

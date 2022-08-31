@@ -1,5 +1,6 @@
 Instance: ex09
 InstanceOf: BeMyCareNetEagreementDemandReply
+Description: "Ask for a cancel of an agreement by a physiotherapist"
 Usage: #example
 * type = #message
 * timestamp = "2015-07-14T11:15:37+02:00"
