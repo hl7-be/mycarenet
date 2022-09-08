@@ -60,7 +60,7 @@ menu:
     Value Sets: artifacts.html#4
   Downloads: downloads.html
   Changes: changes.html
-  History: ../history.html
+  History: "https://www.ehealth.fgov.be/standards/fhir/lab/history.html"
 
 
 parameters:
