@@ -5,13 +5,14 @@ applyExtensionMetadataToRoot: false
 id: hl7.fhir.be.mycarenet
 name: Belgian MyCareNet Profiles
 title: Belgian MyCareNet Profiles
-status: active
+status: draft
 version: 2.0.0
 copyrightYear: 2022+
 releaseLabel: STU
 jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 dependencies:
-  hl7.fhir.be.core: 2.0.0
+  hl7.fhir.be.core: 2.0.1
+  
 
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
