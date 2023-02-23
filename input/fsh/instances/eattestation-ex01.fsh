@@ -21,7 +21,6 @@ Usage: #example
 * entry[=].resource = eattestation-ex01-Service1
 * entry[+].fullUrl = "urn:uuid:e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"
 * entry[=].resource = eattestation-ex01-Claim1
-* meta.profile = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementdemand"
 * type = #message
 * timestamp = "2015-07-14T11:15:33+02:00"
 
@@ -174,31 +173,31 @@ Usage: #inline
 * item.careTeamSequence[+] = 2
 * item.careTeamSequence[+] = 3
 * item.quantity.value = 10
-* item.extension[0].valueMoney.currency = #EUR
-* item.extension[=].valueMoney.value = 60
-* item.extension[=].url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-ext-eattest-item-supplement"
-* item.extension[+].valueString = "preauthref number"
-* item.extension[=].url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-ext-eattest-item-preauthref"
+* item.extension[supplement].valueMoney.currency = #EUR
+* item.extension[supplement].valueMoney.value = 60
+* item.extension[supplement].url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-ext-eattestation-item-supplement"
+* item.extension[preAuthRef].valueString = "preauthref number"
+* item.extension[preAuthRef].url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-ext-eattestation-item-preauthref"
 * total.currency = #EUR
 * total.value = 500
 * insurance.sequence = 1
 * insurance.focal = true
 * insurance.coverage.display = "use of mandatory insurance coverage, no further details provided here."
 * careTeam[0].sequence = 1
-* careTeam[=].qualification = http://terminology.hl7.org/CodeSystem/??????#??????
+* careTeam[=].qualification = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty#persphysician
 * careTeam[=].provider = Reference(PractitionerRole/PractitionerRole2)
 * careTeam[=].role = http://terminology.hl7.org/CodeSystem/claimcareteamrole#other
 * careTeam[+].sequence = 2
-* careTeam[=].qualification = http://terminology.hl7.org/CodeSystem/?????#??????
+* careTeam[=].qualification = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty#persnurse
 * careTeam[=].provider = Reference(PractitionerRole/PractitionerRole3)
 * careTeam[=].role = http://terminology.hl7.org/CodeSystem/claimcareteamrole#assist
 * careTeam[+].sequence = 3
-* careTeam[=].qualification = http://terminology.hl7.org/CodeSystem/?????#??????
+* careTeam[=].qualification = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty#persnurse
 * careTeam[=].provider = Reference(PractitionerRole/PractitionerRole4)
 * careTeam[=].role = http://terminology.hl7.org/CodeSystem/claimcareteamrole#assist
 * patient = Reference(urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686)
-* meta.profile = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestclaim"
+
 * created = "2015-07-14T11:15:30+02:00"
 * extension.valueMoney.currency = #EUR
 * extension.valueMoney.value = 60
-* extension.url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-ext-eattest-supplement"
+* extension.url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-ext-eattestation-supplement"

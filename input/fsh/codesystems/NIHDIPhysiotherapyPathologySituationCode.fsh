@@ -8,39 +8,39 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * ^content = #fragment
 * #fa-1 "fa-1"
 * #fa-1 ^designation[0].language = #nl-BE
-* #fa-1 ^designation[=].value = "a) Volgende posttraumatische of postoperatieve aandoeningen:situaties waarin één of meerdere verstrekkingen uit artikel 14 k) (orthopedie), I (heelkundige verstrekkingen) en III\r\n(diagnostische en therapeutische arthroscopieën) zijn aangerekend en waarin de verstrekking of de som van die\r\nverstrekkingen overeenkomst met een waarde van N 200 of meer; "
+* #fa-1 ^designation[=].value = "a) Volgende posttraumatische of postoperatieve aandoeningen:situaties waarin één of meerdere verstrekkingen uit artikel 14 k) (orthopedie), I (heelkundige verstrekkingen) en III\r\n(diagnostische en therapeutische arthroscopieën) zijn aangerekend en waarin de verstrekking of de som van die\r\nverstrekkingen overeenkomst met een waarde van N 200 of meer;"
 * #fa-1 ^designation[+].language = #fr-BE
 * #fa-1 ^designation[=].value = "a) Affections posttraumatiques ou postopératoires:situations dans lesquelles une ou plusieurs prestations de l'article 14, k) (orthopédie), I (prestations chirurgicales) et III (arthroscopies diagnostiques et thérapeutiques), sont attestées et pour lesquelles la prestation ou la somme de ces\r\nprestations correspond à une valeur de N200 ou plus;"
 * #fa-2 "fa-2"
 * #fa-2 ^designation[0].language = #nl-BE
-* #fa-2 ^designation[=].value = "a) Volgende posttraumatische of postoperatieve aandoeningen:situaties waarin een verstrekking uit artikel 14 b) (neurochirurgie) zijn aangerekend en waarin deze verstrekking\r\novereenkomt met een waarde van K 225 of meer; "
+* #fa-2 ^designation[=].value = "a) Volgende posttraumatische of postoperatieve aandoeningen:situaties waarin een verstrekking uit artikel 14 b) (neurochirurgie) zijn aangerekend en waarin deze verstrekking\r\novereenkomt met een waarde van K 225 of meer;"
 * #fa-2 ^designation[+].language = #fr-BE
-* #fa-2 ^designation[=].value = "a) Affections posttraumatiques ou postopératoires:situations dans lesquelles une prestation de l'article 14, b) (neurochirurgie) est attestée et pour laquelle la prestation correspond à une valeur de K225 ou plus "
+* #fa-2 ^designation[=].value = "a) Affections posttraumatiques ou postopératoires:situations dans lesquelles une prestation de l'article 14, b) (neurochirurgie) est attestée et pour laquelle la prestation correspond à une valeur de K225 ou plus"
 * #fa-2-b "fa-2-b"
 * #fa-2-b ^designation[0].language = #nl-BE
-* #fa-2-b ^designation[=].value = "a) Volgende posttraumatische of postoperatieve aandoeningen:in geval van handletsels, situaties waarin één of meerdere verstrekkingen uit artikel 14, k) (orthopedie) I\r\n(heelkundige verstrekkingen) met een totale waarde van Nx en een verstrekking van artikel 14, b) (neurochirurgie)\r\nmet een waarde van Ky tegelijk zijn verricht terwijl het resultaat van de volgende berekening [Nx/N200 +\r\nKy/K225] hoger is dan of gelijk is aan 1; "
+* #fa-2-b ^designation[=].value = "a) Volgende posttraumatische of postoperatieve aandoeningen:in geval van handletsels, situaties waarin één of meerdere verstrekkingen uit artikel 14, k) (orthopedie) I\r\n(heelkundige verstrekkingen) met een totale waarde van Nx en een verstrekking van artikel 14, b) (neurochirurgie)\r\nmet een waarde van Ky tegelijk zijn verricht terwijl het resultaat van de volgende berekening [Nx/N200 +\r\nKy/K225] hoger is dan of gelijk is aan 1;"
 * #fa-2-b ^designation[+].language = #fr-BE
 * #fa-2-b ^designation[=].value = "a) Affections posttraumatiques ou postopératoires:en cas de lésions de la main, situations dans lesquelles une ou plusieurs prestations de l’article 14, k) (orthopédie) I (prestations chirurgicales) d’une valeur totale de Nx et une prestation de l’article 14, b) (neurochirurgie) d’une valeur de Ky  sont effectuées conjointement lorsque le résultat du calcul suivant [Nx/N200 + Ky/225] est supérieur ou égal à 1 ;"
 * #fa-3 "fa-3"
 * #fa-3 ^designation[0].language = #nl-BE
 * #fa-3 ^designation[=].value = "a) Volgende posttraumatische of postoperatieve aandoeningen:situaties waarbij een van de verstrekkingen 227695-227706, 227710-227721, 227813-227824, 227835-227846,\r\n226936-226940, 227592-227603, 227614-227625, 227651-227662, 227673-227684, 227776-2277801 of 227791-\r\n227802 is geattesteerd uit artikel 14, e) van de nomenclatuur."
 * #fa-3 ^designation[+].language = #fr-BE
-* #fa-3 ^designation[=].value = "a) Affections posttraumatiques ou postopératoires:situations dans lesquelles une des prestations 227695–227706, 227710–227721, 227813-227824, 227835– 227846, 226936-226940, 227592–227603, 227614–227625, 227651-227662, 227673-227684, 227776-227780 ou 227791-\r\n227802 de l'article 14, e) de la nomenclature est attestée. "
+* #fa-3 ^designation[=].value = "a) Affections posttraumatiques ou postopératoires:situations dans lesquelles une des prestations 227695–227706, 227710–227721, 227813-227824, 227835– 227846, 226936-226940, 227592–227603, 227614–227625, 227651-227662, 227673-227684, 227776-227780 ou 227791-\r\n227802 de l'article 14, e) de la nomenclature est attestée."
 * #fa-4 "fa-4"
 * #fa-4 ^designation[0].language = #nl-BE
-* #fa-4 ^designation[=].value = "b) Situaties waarbij de verstrekkingen 211046, 212225 of 214045, (artikel 13, § 1 van de nomenclatuur (reanimatie)) werden\r\naangerekend. "
+* #fa-4 ^designation[=].value = "b) Situaties waarbij de verstrekkingen 211046, 212225 of 214045, (artikel 13, § 1 van de nomenclatuur (reanimatie)) werden\r\naangerekend."
 * #fa-4 ^designation[+].language = #fr-BE
 * #fa-4 ^designation[=].value = "b) Situations dans lesquelles les prestations 211046, 212225 ou 214045 (article 13, § 1er de la nomenclature (réanimation)) a été attestée"
 * #fa-5 "fa-5"
 * #fa-5 ^designation[0].language = #nl-BE
-* #fa-5 ^designation[=].value = "c) Situaties waarbij de rechthebbenden opgenomen zijn geweest in een erkende functie intensieve verzorging (code 490), in\r\neen erkende functie plaatselijke neonatale verzorging (functie N*\r\n) (code 190) of in een erkende dienst voor intensieve\r\nneonatalogie (NIC) (code 270). "
+* #fa-5 ^designation[=].value = "c) Situaties waarbij de rechthebbenden opgenomen zijn geweest in een erkende functie intensieve verzorging (code 490), in\r\neen erkende functie plaatselijke neonatale verzorging (functie N*\r\n) (code 190) of in een erkende dienst voor intensieve\r\nneonatalogie (NIC) (code 270)."
 * #fa-5 ^designation[+].language = #fr-BE
 * #fa-5 ^designation[=].value = "c) Bénéficiaires après une admission en fonction de soins intensifs (code 490), dans une fonction de soins néonatals locaux (fonction N°) (code 190) ou un service de néonatalgie intensive (NIC) (code 270)"
 * #fa-6 "fa-6"
 * #fa-6 ^designation[0].language = #nl-BE
 * #fa-6 ^designation[=].value = "d) Ademhalingsinsufficiëntie bij kinderen onder 16 jaar met tracheo-, laryngo- of bronchomalacie of recidiverende lage\r\nluchtwegeninfecties"
 * #fa-6 ^designation[+].language = #fr-BE
-* #fa-6 ^designation[=].value = "c) Insuffisance respiratoire pour les enfants de moins de 16 ans souffrant de trachéo-, laryngo- ou bronchomalacie ou d'infections récidivantes des voies respiratoires inférieures. "
+* #fa-6 ^designation[=].value = "c) Insuffisance respiratoire pour les enfants de moins de 16 ans souffrant de trachéo-, laryngo- ou bronchomalacie ou d'infections récidivantes des voies respiratoires inférieures."
 * #fa-7 "fa-7"
 * #fa-7 ^designation[0].language = #nl-BE
 * #fa-7 ^designation[=].value = "e) Motorisch deficit en invalidering als gevolg van:mononeuropathie (bijvoorbeeld dropvoet, drophand);"
@@ -60,7 +60,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #fa-10 ^designation[0].language = #nl-BE
 * #fa-10 ^designation[=].value = "f) Situaties in het domein van de orthopedie – traumatologie 10.\r\n - wervelbreuk die gedurende minstens drie weken met een gipsverband, een korset of een orthese werd\r\ngeïmmobiliseerd;\r\n\r\n - bekkenbreuk die gedurende minstens drie weken een immobilisatie of partieel of volledig steunverbod\r\nvereist;\r\n\r\n - breuken aan de knieschijf, het tibiaplateau, de humeruskop, de elleboog of intra-articulaire breuken ter\r\nhoogte van de ledematen, die gedurende minstens drie weken werd geïmmobiliseerd;\r\n\r\n - luxatie van de elleboog, de heup, de heupprothese, het schoudergewricht of de schouderprothese;\r\n - ernstige knievertuikingen met gehele of partiële ruptuur van één of meerdere ligamenten."
 * #fa-10 ^designation[+].language = #fr-BE
-* #fa-10 ^designation[=].value = "f) Situations dans le domaine de l'orthopédie – traumatologie \r\n - fracture vertébrale qui a nécessité une immobilisation par plâtre, corset ou orthèse d'au moins trois semaines;\r\n - fracture du bassin qui nécessite une immobilisation ou une décharge totale ou partielle d'au moins trois semaines;\r\n - fracture de la rotule, du plateau tibial, de la tête humérale, du coude ou fracture intra-articulaire à la hauteur des\r\n membres, qui ont nécessité une immobilisation d'au moins trois semaines;\r\n - luxation du coude, de la hanche, de la prothèse de hanche ou de l'articulation de l'épaule ou de la prothèse de\r\nl'épaule;\r\n - entorse grave du genou avec rupture totale ou partielle d'un ou de plusieurs ligaments. "
+* #fa-10 ^designation[=].value = "f) Situations dans le domaine de l'orthopédie – traumatologie \r\n - fracture vertébrale qui a nécessité une immobilisation par plâtre, corset ou orthèse d'au moins trois semaines;\r\n - fracture du bassin qui nécessite une immobilisation ou une décharge totale ou partielle d'au moins trois semaines;\r\n - fracture de la rotule, du plateau tibial, de la tête humérale, du coude ou fracture intra-articulaire à la hauteur des\r\n membres, qui ont nécessité une immobilisation d'au moins trois semaines;\r\n - luxation du coude, de la hanche, de la prothèse de hanche ou de l'articulation de l'épaule ou de la prothèse de\r\nl'épaule;\r\n - entorse grave du genou avec rupture totale ou partielle d'un ou de plusieurs ligaments."
 * #fa-11 "fa-11"
 * #fa-11 ^designation[0].language = #nl-BE
 * #fa-11 ^designation[=].value = "g) Adhesieve capsulitis (frozen shoulder)"
@@ -75,12 +75,12 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #fa-13 ^designation[0].language = #nl-BE
 * #fa-13 ^designation[=].value = "h) Situaties die uro-, gynaeco-, colo- of proctologische revalidatie vereisenpostoperatieve revalidatie van sfyncterdisfunctie na: 13. (01) radicale prostatectomie of adenomectie. (02) totale cystectomie met vervangblaas ingeplant op de urethra bij patiënten die lijden aan urinaire incontinentie en/of verminderd aandranggevoel (03) verwijdering van een deel van het spijsverteringskanaal met behoud van de anale sfyncter. (04) fverzakking van blaas, rectum of baarmoeder na een chirurgische ingreep."
 * #fa-13 ^designation[+].language = #fr-BE
-* #fa-13 ^designation[=].value = "h) Situations nécessitant une rééducation uro-, gynéco-, colo- ou proctologiqueRééducation postopératoire du dysfonctionnement sphinctérien après:\r\n(01) Prostatectomie radicale ou adénomectomie\r\n(02) Cystectomie totale avec entéro-cystoplastie chez des patients présentant une incontinence urinaire et/ou un déficit de sensibilité de réplétion vésicale.\r\n(03) Amputation d'une partie du système digestif avec maintien du sphincter anal\r\n(04) Prolapsus vésical, rectal ou utérin après intervention chirurgicale. "
+* #fa-13 ^designation[=].value = "h) Situations nécessitant une rééducation uro-, gynéco-, colo- ou proctologiqueRééducation postopératoire du dysfonctionnement sphinctérien après:\r\n(01) Prostatectomie radicale ou adénomectomie\r\n(02) Cystectomie totale avec entéro-cystoplastie chez des patients présentant une incontinence urinaire et/ou un déficit de sensibilité de réplétion vésicale.\r\n(03) Amputation d'une partie du système digestif avec maintien du sphincter anal\r\n(04) Prolapsus vésical, rectal ou utérin après intervention chirurgicale."
 * #fa-14 "fa-14"
 * #fa-14 ^designation[0].language = #nl-BE
-* #fa-14 ^designation[=].value = "h) Situaties die uro-, gynaeco-, colo- of proctologische revalidatie vereisenfunctionele aandoeningen bij kinderen tot de 16e\r\n varjaardag ten gevolge van één van de volgende disfuncties of\r\nmisvormingen\r\n(01) urinaire aandoeningen die op korte en middellange termijn een bedreiging vormen voor de\r\nhogere urinewegen:\r\n\r\n - dyssynergie tussen blaas en sfincter\r\n - recidiverende urinewegeninfecties\r\n - postoperatief syndroom van urethrakleppen\r\n - vesicale immaturiteit\r\n (02) encopresis bij het kind "
+* #fa-14 ^designation[=].value = "h) Situaties die uro-, gynaeco-, colo- of proctologische revalidatie vereisenfunctionele aandoeningen bij kinderen tot de 16e\r\n varjaardag ten gevolge van één van de volgende disfuncties of\r\nmisvormingen\r\n(01) urinaire aandoeningen die op korte en middellange termijn een bedreiging vormen voor de\r\nhogere urinewegen:\r\n\r\n - dyssynergie tussen blaas en sfincter\r\n - recidiverende urinewegeninfecties\r\n - postoperatief syndroom van urethrakleppen\r\n - vesicale immaturiteit\r\n (02) encopresis bij het kind"
 * #fa-14 ^designation[+].language = #fr-BE
-* #fa-14 ^designation[=].value = "h) Situations nécessitant une rééducation uro-, gynéco-, colo- ou proctologiquePathologies fonctionnelles pour les enfants jusqu'au 16ème anniversaire dues à des dysfonctionnements 14.\r\n ou des malformations:\r\n(1) infections urinaires pouvant constituer une menace pour le haut appareil urinaire à court et moyen termes:\r\n - dyssynergie vésico-sphinctérienne\r\n - infections urinaires à répétition\r\n - syndrome des valves urétrales post-opératoire\r\n - immaturité vésicale\r\n (2) encoprésie chez l’enfant "
+* #fa-14 ^designation[=].value = "h) Situations nécessitant une rééducation uro-, gynéco-, colo- ou proctologiquePathologies fonctionnelles pour les enfants jusqu'au 16ème anniversaire dues à des dysfonctionnements 14.\r\n ou des malformations:\r\n(1) infections urinaires pouvant constituer une menace pour le haut appareil urinaire à court et moyen termes:\r\n - dyssynergie vésico-sphinctérienne\r\n - infections urinaires à répétition\r\n - syndrome des valves urétrales post-opératoire\r\n - immaturité vésicale\r\n (2) encoprésie chez l’enfant"
 * #fa-15 "fa-15"
 * #fa-15 ^designation[0].language = #nl-BE
 * #fa-15 ^designation[=].value = "i) Reflex Sympathische dystrofie (RSD) van het type I (algoneurodystrofie of Südeckatrofie) of van het type II (causalgie)"
@@ -88,12 +88,12 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #fa-15 ^designation[=].value = "i) Syndrome Douloureux Régional Complexe (SDRC) de type I (algoneurodystrophie ou maladie de Südeck)  ou de type II (causalgie)"
 * #fa-16 "fa-16"
 * #fa-16 ^designation[0].language = #nl-BE
-* #fa-16 ^designation[=].value = "j) Polytraumatismen, met invaliderende functionele gevolgen ter hoogte van twee verschillende ledematen of ter hoogte van\r\neen lidmaat en de romp, waarvan ten minste 2 traumatismen voldoen aan de criteria van de pathologische situaties\r\nomschreven in § 14, 5°, A, a), 1) of 2) (posttraumatische of postoperatieve aandoeningen) en/of in § 14, 5°, A, f) (situaties\r\nin het domein van de orthopedie – traumatologie) "
+* #fa-16 ^designation[=].value = "j) Polytraumatismen, met invaliderende functionele gevolgen ter hoogte van twee verschillende ledematen of ter hoogte van\r\neen lidmaat en de romp, waarvan ten minste 2 traumatismen voldoen aan de criteria van de pathologische situaties\r\nomschreven in § 14, 5°, A, a), 1) of 2) (posttraumatische of postoperatieve aandoeningen) en/of in § 14, 5°, A, f) (situaties\r\nin het domein van de orthopedie – traumatologie)"
 * #fa-16 ^designation[+].language = #fr-BE
 * #fa-16 ^designation[=].value = "j) Polytraumatismes, avec des répercussions fonctionnelles invalidantes au niveau de deux membre différents ou au niveau\r\nd’un membre et du tronc, dont au moins 2 traumatismes répondent aux critères des situations pathologiques définies au § 14,\r\n5°, A, a),\r\n1) ou 2) (affections posttraumatiques ou postopératoires) et/ou au § 14, 5°, A, f) (situations dans le domaine de\r\nl’orthopédie - traumatologie)"
 * #fa-17 "fa-17"
 * #fa-17 ^designation[0].language = #nl-BE
-* #fa-17 ^designation[=].value = "k) De volgende situaties in het domein van de stomatologie: \r\n- na een intra-articulaire temporomandibulaire heelkundige ingreep;\r\n - tijdens en/of na radiotherapie betreffende de maxillo-faciale zone;\r\n - na een intra-articulaire of sub-condylaire mandibulaire breuk; "
+* #fa-17 ^designation[=].value = "k) De volgende situaties in het domein van de stomatologie: \r\n- na een intra-articulaire temporomandibulaire heelkundige ingreep;\r\n - tijdens en/of na radiotherapie betreffende de maxillo-faciale zone;\r\n - na een intra-articulaire of sub-condylaire mandibulaire breuk;"
 * #fa-17 ^designation[+].language = #fr-BE
 * #fa-17 ^designation[=].value = "k) Situations dans le domaine de la stomatologie énumérées ci-dessous :\r\n - après une intervention chirurgicale temporomandibulaire intra-articulaire;\r\n - pendant et/ou après une radiothérapie concernant la région maxillo-faciale\r\n - après une fracture mandibulaire intra-articulaire ou sub-condylaire"
 * #fb-51 "fb-51"
@@ -115,7 +115,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #fb-55 ^designation[0].language = #nl-BE
 * #fb-55 ^designation[=].value = "d) Chronische motorische of gemengde polyneuropathie."
 * #fb-55 ^designation[+].language = #fr-BE
-* #fb-55 ^designation[=].value = "d) Polyneuropathie chronique motrice ou mixte. "
+* #fb-55 ^designation[=].value = "d) Polyneuropathie chronique motrice ou mixte."
 * #fb-56 "fb-56"
 * #fb-56 ^designation[0].language = #nl-BE
 * #fb-56 ^designation[=].value = "e) Chronisch vermoeidheidssyndroom\r\ndie voldoen aan de voorwaarden beschreven in de nomenclatuur"
@@ -175,7 +175,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #e-e-3 ^designation[0].language = #nl-BE
 * #e-e-3 ^designation[=].value = "e) functioneel verliesGlobaal posttraumatische functioneel verlies van een lidmaat, tijdens de evolutieve periode;"
 * #e-e-3 ^designation[+].language = #fr-BE
-* #e-e-3 ^designation[=].value = "e) Perte fonctionnelle :Perte fonctionnelle globale post-traumatique d'un membre, pendant la période évolutive "
+* #e-e-3 ^designation[=].value = "e) Perte fonctionnelle :Perte fonctionnelle globale post-traumatique d'un membre, pendant la période évolutive"
 * #e-f "e-f"
 * #e-f ^designation[0].language = #nl-BE
 * #e-f ^designation[=].value = "f) Spits- en klompvoet, bij een kind jonger dan 2 jaar;"
@@ -200,7 +200,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #e-g-4 ^designation[0].language = #nl-BE
 * #e-g-4 ^designation[=].value = "g) Ernstige gewrichtsdysfunctie ten gevolge van: arthrogrypose;"
 * #e-g-4 ^designation[+].language = #fr-BE
-* #e-g-4 ^designation[=].value = "g) Dysfonction articulaire grave résultant :d’une arthrogrypose "
+* #e-g-4 ^designation[=].value = "g) Dysfonction articulaire grave résultant :d’une arthrogrypose"
 * #e-h-1 "e-h-1"
 * #e-h-1 ^designation[0].language = #nl-BE
 * #e-h-1 ^designation[=].value = "h) Chronische auto-immune inflammatoire polyarthritis:Reumatoïde artritis"
@@ -230,7 +230,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #e-h-6 ^designation[0].language = #nl-BE
 * #e-h-6 ^designation[=].value = "h) Chronische auto-immune inflammatoire polyarthritis:Primair syndroom van Sjögren, volgens de definities aanvaard door de Koninklijke Belgische      Vereniging voor Reumatologie"
 * #e-h-6 ^designation[+].language = #fr-BE
-* #e-h-6 ^designation[=].value = "h) Polyarthrites chroniques inflammatoires d’origine immunitaire :Syndrome de Sjögren primaire (selon les définitions acceptées par la Société Royale Belge de Rhumatologie) "
+* #e-h-6 ^designation[=].value = "h) Polyarthrites chroniques inflammatoires d’origine immunitaire :Syndrome de Sjögren primaire (selon les définitions acceptées par la Société Royale Belge de Rhumatologie)"
 * #e-i-1 "e-i-1"
 * #e-i-1 ^designation[0].language = #nl-BE
 * #e-i-1 ^designation[=].value = "i) Myopathieën:    de progressieve erfelijke musculaire dystrofieën;"
@@ -245,7 +245,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #e-i-3 ^designation[0].language = #nl-BE
 * #e-i-3 ^designation[=].value = "i) Myopathieën:     de auto-immune polymuosotis;"
 * #e-i-3 ^designation[+].language = #fr-BE
-* #e-i-3 ^designation[=].value = "i) Myopathies :Polymyosite auto-immune "
+* #e-i-3 ^designation[=].value = "i) Myopathies :Polymyosite auto-immune"
 * #e-j-1 "e-j-1"
 * #e-j-1 ^designation[0].language = #nl-BE
 * #e-j-1 ^designation[=].value = "j) longaandoeningen:Mucoviscidose of geobjectiveerde primaire bronchiale ciliaire dyskinesie;"
@@ -270,7 +270,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #e-j-5 ^designation[0].language = #nl-BE
 * #e-j-5 ^designation[=].value = "j) longaandoeningen:    Broncho-pulmonaire dysplasie met zuurstofafhankelijkheid    gedurende meer dan 28 dagen. De met redenen omklede aanvraag van de behandelende kinderarts moet met name het verslag over de opneming in een dienst N omvatten;"
 * #e-j-5 ^designation[+].language = #fr-BE
-* #e-j-5 ^designation[=].value = "j) Affections pulmonaires :Dysplasie broncho-pulmonaire avec oxygénodépendance de plus de 28 jours. La demande motivée du pédiatre traitant comportera notamment le rapport d'hospitalisation en service N. "
+* #e-j-5 ^designation[=].value = "j) Affections pulmonaires :Dysplasie broncho-pulmonaire avec oxygénodépendance de plus de 28 jours. La demande motivée du pédiatre traitant comportera notamment le rapport d'hospitalisation en service N."
 * #e-k "e-k"
 * #e-k ^designation[0].language = #nl-BE
 * #e-k ^designation[=].value = "k) Lymfoedeem: \r\n\r\nBij een eenzijdige aantasting ter hoogte van een lidmaat (bovenste of onderste) door een postradiotherapeutisch of postchirurgisch lymfoedeem dat beantwoordt aan de volgende criteria:\r\nofwel moet een perimetrie die is uitgevoerd op het hele lidmaat, of een volumetrisch onderzoek van de hand of de voet een verschil van +10 % aantonen ten opzichte van het contralaterale lidmaat. Die metingen moeten worden uitgevoerd volgens de protocollen die zijn vastgelegd door het Verzekeringscomité, op voorstel van het College van geneesheren-directeurs\r\nofwel moet een lymfoscintigrafisch onderzoek in 3 stappen de ernst van de diagnose bevestigen als aan een belangrijk criterium is voldaan volgens de lymfoscintigrafische classificatie van de oedemen van de ledematen met het oog op de kinesitherapeutische tenlasteneming ervan. Die classificatie wordt vastgelegd door het Verzekeringscomité, op voorstel van het College van geneesheren-directeurs\r\nVoor alle andere soorten van lymfoedeem moet een lymfoscintigrafisch onderzoek in 3 stappen de diagnose bevestigen als aan een belangrijk criterium is voldaan volgens de lymfoscintigrafische classificatie van de oedemen met het oog op de kinesitherapeutische tenlasteneming ervan.\r\n\r\nNochtans is een lymfoscintigrafisch onderzoek niet vereist in 3 gevallen:\r\nals het een cervico-faciaal oedeem betreft:\r\nals het een patiënt jonger dan 14 jaar betreft waarvoor het uitvoeren van een lymfoscintigrafisch onderzoek in drie stappen niet aangewezen is\r\nin geval van gemotiveerde fysieke onmogelijkheid om een lymfoscintigrafisch onderzoek in drie stappen uit te voeren.\r\nIn die 3 gevallen moet de geneesheer-specialist een gemotiveerd verslag dat de diagnose en de verzorgingsnood rechtvaardigt, aan de adviserend-geneesheer bezorgen. Deze zal, indien hij dat nuttig acht, dat dossier voor advies aan het College van Geneesheren-directeurs bezorgen."
@@ -370,20 +370,20 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #eb-4 ^designation[0].language = #nl-BE
 * #eb-4 ^designation[=].value = "Belangrijk functioneel verlies van een lidmaat ten gevolge van een agenesie van het lidmaat of van een dysmelie die de anatomie van zijn verschillende segmenten aantast"
 * #eb-4 ^designation[+].language = #fr-BE
-* #eb-4 ^designation[=].value = "Perte fonctionnelle importante d’un membre suite à une agénésie du membre ou à une dysmélie affectant l’anatomie de ses différents segments "
+* #eb-4 ^designation[=].value = "Perte fonctionnelle importante d’un membre suite à une agénésie du membre ou à une dysmélie affectant l’anatomie de ses différents segments"
 * #eb-5-1 "eb-5-1"
 * #eb-5-1 ^designation[0].language = #nl-BE
 * #eb-5-1 ^designation[=].value = "Ernstige gewrichtsdysfunctie ten gevolge van:hemofilie"
 * #eb-5-1 ^designation[+].language = #fr-BE
-* #eb-5-1 ^designation[=].value = "Dysfonction articulaire grave résultant :hémophilie "
+* #eb-5-1 ^designation[=].value = "Dysfonction articulaire grave résultant :hémophilie"
 * #eb-5-2-1 "eb-5-2-1"
 * #eb-5-2-1 ^designation[0].language = #nl-BE
 * #eb-5-2-1 ^designation[=].value = "Ernstige gewrichtsdysfunctie ten gevolge van:erfelijke bindweefselaandoeningen/osteogenesis imperfecta van het type III en IV"
 * #eb-5-2-1 ^designation[+].language = #fr-BE
-* #eb-5-2-1 ^designation[=].value = "Dysfonction articulaire grave résultant :maladies héréditaires du tissu conjonctif/ostéogenèse imparfaite de type III et IV   "
+* #eb-5-2-1 ^designation[=].value = "Dysfonction articulaire grave résultant :maladies héréditaires du tissu conjonctif/ostéogenèse imparfaite de type III et IV  "
 * #eb-5-2-2 "eb-5-2-2"
 * #eb-5-2-2 ^designation[0].language = #nl-BE
-* #eb-5-2-2 ^designation[=].value = "Ernstige gewrichtsdysfunctie ten gevolge van:erfelijke bindweefselaandoeningen/Ehlers-Danlos-syndroom "
+* #eb-5-2-2 ^designation[=].value = "Ernstige gewrichtsdysfunctie ten gevolge van:erfelijke bindweefselaandoeningen/Ehlers-Danlos-syndroom"
 * #eb-5-2-2 ^designation[+].language = #fr-BE
 * #eb-5-2-2 ^designation[=].value = "Dysfonction articulaire grave résultant :maladies héréditaires du tissu conjonctif/syndrome d'Ehlers-Danlos"
 * #eb-5-2-3 "eb-5-2-3"
@@ -393,7 +393,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #eb-5-2-3 ^designation[=].value = "Dysfonction articulaire grave résultant :maladies héréditaires du tissu conjonctif/chondrodysplasies"
 * #eb-5-2-4 "eb-5-2-4"
 * #eb-5-2-4 ^designation[0].language = #nl-BE
-* #eb-5-2-4 ^designation[=].value = "Ernstige gewrichtsdysfunctie ten gevolge van:erfelijke bindweefselaandoeningen/Marfan-syndroom "
+* #eb-5-2-4 ^designation[=].value = "Ernstige gewrichtsdysfunctie ten gevolge van:erfelijke bindweefselaandoeningen/Marfan-syndroom"
 * #eb-5-2-4 ^designation[+].language = #fr-BE
 * #eb-5-2-4 ^designation[=].value = "Dysfonction articulaire grave résultant :maladies héréditaires du tissu conjonctif/syndrome deMarfan"
 * #eb-5-2-5 "eb-5-2-5"
@@ -410,7 +410,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #eb-6-1 ^designation[0].language = #nl-BE
 * #eb-6-1 ^designation[=].value = "Ernstige stoornissen van de gewrichtsfunctie(s), die het gevolg zijn van een chronische autoimmune inflammatoire polyarthritis (volgens de definities aanvaard door de Koninklijke Belgische Vereniging voor Reumatologie):reumatoïde artritis"
 * #eb-6-1 ^designation[+].language = #fr-BE
-* #eb-6-1 ^designation[=].value = "Troubles graves de la ou des fonctions articulaire(s), qui sont le résultat d’une polyarthrite chronique inflammatoire d’origine immunitaire (selon les définitions acceptées par la Société Royale Belge de Rhumatologie)arthrite rhumatoïde "
+* #eb-6-1 ^designation[=].value = "Troubles graves de la ou des fonctions articulaire(s), qui sont le résultat d’une polyarthrite chronique inflammatoire d’origine immunitaire (selon les définitions acceptées par la Société Royale Belge de Rhumatologie)arthrite rhumatoïde"
 * #eb-6-2 "eb-6-2"
 * #eb-6-2 ^designation[0].language = #nl-BE
 * #eb-6-2 ^designation[=].value = "Ernstige stoornissen van de gewrichtsfunctie(s), die het gevolg zijn van een chronische autoimmune inflammatoire polyarthritis (volgens de definities aanvaard door de Koninklijke Belgische Vereniging voor Reumatologie):spondyloartropathie"
@@ -433,7 +433,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #eb-6-5 ^designation[=].value = "Troubles graves de la ou des fonctions articulaire(s), qui sont le résultat d’une polyarthrite chronique inflammatoire d’origine immunitaire (selon les définitions acceptées par la Société Royale Belge de Rhumatologie)sclérodermie"
 * #eb-6-6 "eb-6-6"
 * #eb-6-6 ^designation[0].language = #nl-BE
-* #eb-6-6 ^designation[=].value = "Ernstige stoornissen van de gewrichtsfunctie(s), die het gevolg zijn van een chronische autoimmune inflammatoire polyarthritis (volgens de definities aanvaard door de Koninklijke Belgische Vereniging voor Reumatologie):primair syndroom van Sjögren "
+* #eb-6-6 ^designation[=].value = "Ernstige stoornissen van de gewrichtsfunctie(s), die het gevolg zijn van een chronische autoimmune inflammatoire polyarthritis (volgens de definities aanvaard door de Koninklijke Belgische Vereniging voor Reumatologie):primair syndroom van Sjögren"
 * #eb-6-6 ^designation[+].language = #fr-BE
 * #eb-6-6 ^designation[=].value = "Troubles graves de la ou des fonctions articulaire(s), qui sont le résultat d’une polyarthrite chronique inflammatoire d’origine immunitaire (selon les définitions acceptées par la Société Royale Belge de Rhumatologie)syndrome de Sjögren primaire"
 * #eb-7-1 "eb-7-1"
@@ -455,32 +455,32 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #eb-7-4 ^designation[0].language = #nl-BE
 * #eb-7-4 ^designation[=].value = "Myopathieën:auto-immune polymyositis"
 * #eb-7-4 ^designation[+].language = #fr-BE
-* #eb-7-4 ^designation[=].value = "Myopathies : Polymyosite auto-immune "
+* #eb-7-4 ^designation[=].value = "Myopathies : Polymyosite auto-immune"
 * #eb-8 "eb-8"
 * #eb-8 ^designation[0].language = #nl-BE
 * #eb-8 ^designation[=].value = "Mucoviscidose of geobjectiveerde primaire bronchiale ciliaire dyskinesie"
 * #eb-8 ^designation[+].language = #fr-BE
-* #eb-8 ^designation[=].value = "Mucoviscidose ou dyskinésie ciliaire bronchiale primaire objectivées "
+* #eb-8 ^designation[=].value = "Mucoviscidose ou dyskinésie ciliaire bronchiale primaire objectivées"
 * #eb-9 "eb-9"
 * #eb-9 ^designation[0].language = #nl-BE
 * #eb-9 ^designation[=].value = "Geobjectiveerde hyperproductieve bronchiectasieën"
 * #eb-9 ^designation[+].language = #fr-BE
-* #eb-9 ^designation[=].value = "Bronchiectasies hyperproductives objectivées "
+* #eb-9 ^designation[=].value = "Bronchiectasies hyperproductives objectivées"
 * #eb-10 "eb-10"
 * #eb-10 ^designation[0].language = #nl-BE
 * #eb-10 ^designation[=].value = "Irreversibele chronische obstructieve of restrictieve longaandoeningen met maximum expiratoire secondecapaciteit waarden van minder dan of gelijk aan 60 pct., opgemeten in een tussenperiode van minstens één maand; bij een kind jonger dan 7 jaar kan de irreversibele ademhalingsinsufficiëntie worden vastgesteld op basis van een gemotiveerd verslag van de behandelende specialist"
 * #eb-10 ^designation[+].language = #fr-BE
-* #eb-10 ^designation[=].value = "Affections pulmonaires chroniques irréversibles obstructives ou restrictives avec des valeurs de volume expiratoire maximum-seconde inférieures ou égales à 60 % mesurées à un intervalle d'au moins 1 mois ; chez un enfant de moins de 7 ans, l'insuffisance respiratoire irréversible pourra être établie sur base d'un rapport motivé du spécialiste traitant "
+* #eb-10 ^designation[=].value = "Affections pulmonaires chroniques irréversibles obstructives ou restrictives avec des valeurs de volume expiratoire maximum-seconde inférieures ou égales à 60 % mesurées à un intervalle d'au moins 1 mois ; chez un enfant de moins de 7 ans, l'insuffisance respiratoire irréversible pourra être établie sur base d'un rapport motivé du spécialiste traitant"
 * #eb-11 "eb-11"
 * #eb-11 ^designation[0].language = #nl-BE
 * #eb-11 ^designation[=].value = "Recidiverende pulmonaire infecties bij bewezen ernstige immunodepressie"
 * #eb-11 ^designation[+].language = #fr-BE
-* #eb-11 ^designation[=].value = "Infections pulmonaires récidivantes en cas d'immunodépression grave établie "
+* #eb-11 ^designation[=].value = "Infections pulmonaires récidivantes en cas d'immunodépression grave établie"
 * #eb-12 "eb-12"
 * #eb-12 ^designation[0].language = #nl-BE
 * #eb-12 ^designation[=].value = "Broncho-pulmonaire dysplasie met zuurstofafhankelijkheid gedurende meer dan 28 dagen"
 * #eb-12 ^designation[+].language = #fr-BE
-* #eb-12 ^designation[=].value = "Dysplasie broncho-pulmonaire avec oxygénodépendance de plus de 28 jours "
+* #eb-12 ^designation[=].value = "Dysplasie broncho-pulmonaire avec oxygénodépendance de plus de 28 jours"
 * #eb-13 "eb-13"
 * #eb-13 ^designation[0].language = #nl-BE
 * #eb-13 ^designation[=].value = "Epidermolysis bullosa in de dystrofische of junctionele vorm"

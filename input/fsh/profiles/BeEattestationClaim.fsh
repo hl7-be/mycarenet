@@ -4,6 +4,7 @@ Id: be-eattestation-claim
 Title: "MyCareNet eAttestation Claim BE profile"
 Description: "Claim profile for use in the different eAttestation flow from MyCareNet."
 * careTeam 1..* MS
+* careTeam.qualification from BeVSCdHcParty
 * identifier 0..1 MS
 * item 1..* MS
 * item.careTeamSequence 1..* MS
@@ -16,6 +17,8 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * item.bodySite MS
 * item.bodySite.extension contains BeExtLaterality named bodyLaterality 0..1
 * item.bodySite from be-vs-bodysite (required)
+* item.extension contains BeExtEAttestationItemSupplement named supplement 0..1
+* item.extension contains BeExtEAttestationItemPreAuthRef named preAuthRef 1..1
 * patient 1..1 MS
 * provider 1..1 MS
 * provider only Reference(PractitionerRole)

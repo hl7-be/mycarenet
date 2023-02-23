@@ -21,7 +21,8 @@ Description: "Profile for the request of an eAttestation in the MyCareNet flows.
     practitionerRole 0..* MS and
     organization 0..1 MS and
     patient 1..1 MS and
-    serviceRequest 1..1
+    serviceRequest 1..1 MS and 
+    location 1..* MS 
 * entry[messageHeader].fullUrl 1..
 * entry[messageHeader].resource 1..
 * entry[messageHeader].resource only BeMyCareNetMessageHeader
@@ -37,3 +38,9 @@ Description: "Profile for the request of an eAttestation in the MyCareNet flows.
 * entry[patient].fullUrl 1..
 * entry[patient].resource 1..
 * entry[patient].resource only BePatient
+* entry[serviceRequest].fullUrl 1..
+* entry[serviceRequest].resource 1..
+* entry[serviceRequest].resource only ServiceRequest
+* entry[location].fullUrl 1..
+* entry[location].resource 1..
+* entry[location].resource only Location
