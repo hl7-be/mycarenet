@@ -6,8 +6,6 @@ Description: "Profile for the request of an eAttestation in the MyCareNet flows.
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestation-request"
 * ^version = "1.0.0"
 * id 1.. MS
-* meta 1.. MS
-* meta.profile 1..1
 * type MS
 * timestamp 1.. MS
 * entry 4..
