@@ -1,11 +1,9 @@
-Profile: BeMyCareNetEagreementServiceRequest
+Profile: BeEattestationServiceRequest
 Parent: ServiceRequest
-Id: be-eagreementservicerequest
-Title: "MyCareNet eAgreement ServiceRequest BE profile"
-Description: "The ServiceRequest profile for use in the different eAgreement flows from MyCareNet."
+Id: be-eattestationservicerequest
+Title: "MyCareNet eAttestation ServiceRequest BE profile"
+Description: "The ServiceRequest profile for use in the different eAttestation flows from MyCareNet."
 * ^status = #active
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementservicerequest"
-* ^version = "1.0.0"
 * authoredOn MS
 * category ..1 MS
 * category.coding 1..1
@@ -17,19 +15,19 @@ Description: "The ServiceRequest profile for use in the different eAgreement flo
 * code.coding.code 1..
 * code.coding.system = "http://snomed.info/sct" (exactly)
 * code.coding.system 1..
-* contained ..1 MS
-* contained only BeMyCareNetEagreementServiceRequestBinary
+* extension contains BeExtPrescriptionRequesterStandard named requesterStandard 1..1 MS
 * id 1.. MS
 * intent = #order (exactly)
 * intent MS
-* obeys mcn-1 and mcn-2
-* quantity[x] MS
-* quantity[x] only Quantity
 * requester MS
 * requester only Reference(BePractitionerRole or BePractitioner)
 * status = #active (exactly)
 * status MS
 * subject MS
 * subject only Reference(BePatient)
-* supportingInfo ..1 MS
-* supportingInfo.reference 1.. MS
+//* contained ..1 MS
+//* contained only BeMyCareNetEagreementServiceRequestBinary
+//* quantity[x] MS
+//* quantity[x] only Quantity
+//* supportingInfo ..1 MS
+//* supportingInfo.reference 1.. MS

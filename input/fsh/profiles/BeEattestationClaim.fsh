@@ -9,7 +9,8 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * enterer 1..1 MS
 * enterer only Reference(BePractitionerRole)
 * extension contains BeExtEAttestationSupplement named supplement 0..1 MS
-* identifier 0..1 MS
+* identifier 0.. MS
+* identifier contains https://www.mycarenet.be/eattest named eattestid 0..1 MS
 * insurance.coverage.display = "use of mandatory insurance coverage, no further details provided here."
 * insurance.focal = true
 * insurance.sequence = 1
@@ -44,6 +45,7 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * total 0..1 MS // zero only cancel
 * type.coding =  http://terminology.hl7.org/CodeSystem/claim-type#professional
 * use = #claim
+* use MS
 
 
 
