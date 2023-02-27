@@ -3,7 +3,7 @@ Parent: Claim
 Id: be-eattestation-claim
 Title: "MyCareNet eAttestation Claim BE profile"
 Description: "Claim profile for use in the different eAttestation flow from MyCareNet."
-* careTeam 1..* MS
+* careTeam 0..* MS //zero only for cancel
 * careTeam.provider.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"
 * careTeam.qualification from BeVSCdHcParty (required)
 * enterer 1..1 MS
@@ -13,7 +13,7 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * insurance.coverage.display = "use of mandatory insurance coverage, no further details provided here."
 * insurance.focal = true
 * insurance.sequence = 1
-* item 1..* MS
+* item 0..* MS //zero only for cancel
 * item.bodySite from be-vs-bodysite (required)
 * item.bodySite MS
 * item.bodySite.extension contains BeExtLaterality named bodyLaterality 0..1 MS
