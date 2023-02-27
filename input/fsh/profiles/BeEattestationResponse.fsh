@@ -1,10 +1,8 @@
-Profile: BeEattestationRequest
+Profile: BeEattestationResponse
 Parent: Bundle
-Id: be-eattestation-request
-Title: "MyCareNet eAttestation Request Bundle BE profile"
-Description: "Profile for the request of an eAttestation in the MyCareNet flows."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestation-request"
-* ^version = "1.0.0"
+Id: be-eattestation-response
+Title: "MyCareNet eAttestation Response Bundle BE profile"
+Description: "Profile for the response of an eAttestation in the MyCareNet flows."
 * id 1.. MS
 * type MS
 * timestamp 1.. MS
@@ -19,9 +17,7 @@ Description: "Profile for the request of an eAttestation in the MyCareNet flows.
     practitionerRole 0..* MS and
     organization 0..1 MS and
     patient 1..1 MS and
-    serviceRequest 1..1 MS and 
-    location 1..* MS and
-    claim 1.. MS
+    claimresponse 1..1 MS 
 * entry[messageHeader].fullUrl 1..
 * entry[messageHeader].resource 1..
 * entry[messageHeader].resource only BeMyCareNetMessageHeader
@@ -37,12 +33,6 @@ Description: "Profile for the request of an eAttestation in the MyCareNet flows.
 * entry[patient].fullUrl 1..
 * entry[patient].resource 1..
 * entry[patient].resource only BePatient
-* entry[serviceRequest].fullUrl 1..
-* entry[serviceRequest].resource 1..
-* entry[serviceRequest].resource only BeEattestationServiceRequest
-* entry[location].fullUrl 1..
-* entry[location].resource 1..
-* entry[location].resource only Location
-* entry[claim].fullUrl 1..
-* entry[claim].resource 1..
-* entry[claim].resource only BeEattestationClaim
+* entry[claimresponse].fullUrl 1..
+* entry[claimresponse].resource 1..
+* entry[claimresponse].resource only BeEattestationClaimResponse

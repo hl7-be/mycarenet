@@ -10,7 +10,12 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * enterer only Reference(BePractitionerRole)
 * extension contains BeExtEAttestationSupplement named supplement 0..1 MS
 * identifier 0.. MS
-* identifier contains $eattestid named eattestid 0..1 MS
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #open
+* identifier contains eattestid 0..1 MS
+* identifier[eattestid].system = $eattestid (exactly)
+* identifier[eattestid].value 1..1
 * insurance.coverage.display = "use of mandatory insurance coverage, no further details provided here."
 * insurance.focal = true
 * insurance.sequence = 1
