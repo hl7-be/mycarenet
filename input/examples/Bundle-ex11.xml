@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bundle xmlns="http://hl7.org/fhir">
-   <id value="eattest-ex03"/>
+   <id value="ex11"/>
    <meta>
-      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestdemand"/>
+      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementdemand"/>
    </meta>
    <type value="message"/>
    <timestamp value="2015-07-14T11:15:33+02:00"/>
    <entry>
-      <fullUrl value="urn:uuid:267b18ce-3d37-4581-9baa-6fada338038b"/>
+      <fullUrl value="urn:uuid:ce2e2084-3f5c-4f52-8551-8088bb6d3491"/>
       <resource>
          <MessageHeader>
             <id value="267b18ce-3d37-4581-9baa-6fada338038b"/>
@@ -16,19 +16,18 @@
             </meta>
             <eventCoding>
                <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/message-events"/>
-               <code value="eattest-cancel"/>
+               <code value="claim-argue"/>
             </eventCoding>
             <destination>
                <name value="MyCareNet"/>
                <endpoint value="MyCareNet"/>
             </destination>
             <sender>
-        <!-- serviceProvider -->
                <reference
-                               value="urn:uuid:62c7bfad-0cb3-4a39-9abb-3a62e06de834"/>
+                               value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
             </sender>
             <source>
-               <endpoint value="urn:uuid:62c7bfad-0cb3-4a39-9abb-3a62e06de834"/>
+               <endpoint value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
             </source>
             <focus>
                <reference
@@ -38,7 +37,7 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:62c7bfad-0cb3-4a39-9abb-3a62e06de834"/>
+      <fullUrl value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
       <resource>
          <PractitionerRole>
             <id value="PractitionerRole1"/>
@@ -67,7 +66,6 @@
                <profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner"/>
             </meta>
             <identifier>
-        <!-- serviceProvider for the request cancel attest -->
                <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"/>
                <value value="54263481527"/>
             </identifier>
@@ -87,9 +85,14 @@
                <profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"/>
             </meta>
             <identifier>
-        <!-- patient -->
-               <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"/>
-               <value value="73031805784"/>
+               <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancymembership"/>
+               <value value="n° inscription mutualiste"/>
+               <assigner>
+                  <identifier>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancenumber"/>
+                     <value value="n° mutualité"/>
+                  </identifier>
+               </assigner>
             </identifier>
             <name>
                <family value="Dupont"/>
@@ -105,14 +108,8 @@
          <Claim>
             <id value="Claim1"/>
             <meta>
-        <!-- new profile to create for the request -->
-               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestclaim"/>
+               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementclaim-kine"/>
             </meta>
-            <identifier>
-        <!-- attestationID to cancel -->
-               <system value="https://www.mycarenet.be/eattest"/>
-               <value value="identification number of attestation"/>
-            </identifier>
             <status value="active"/>
             <type>
                <coding>
@@ -121,13 +118,12 @@
                </coding>
             </type>
             <subType>
-        <!-- attestationType -->
                <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/eattest-types"/>
-                  <code value="physiotherapy"/>
+                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"/>
+                  <code value="physiotherapy-fb"/>
                </coding>
             </subType>
-            <use value="claim"/>
+            <use value="preauthorization"/>
             <patient>
                <reference
                                value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
@@ -135,12 +131,11 @@
             <created value="2015-07-14T11:15:30+02:00"/>
             <enterer>
                <reference
-                               value="urn:uuid:62c7bfad-0cb3-4a39-9abb-3a62e06de834"/>
+                               value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
             </enterer>
             <provider>
-        <!-- provider for item -->
                <reference
-                               value="urn:uuid:62c7bfad-0cb3-4a39-9abb-3a62e06de834"/>
+                               value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
             </provider>
             <priority>
                <coding>
@@ -149,20 +144,34 @@
                </coding>
             </priority>
             <supportingInfo>
-        <!-- cancelReason for attest-->
                <sequence value="1"/>
+               <category>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/claiminformationcategory"/>
+                     <code value="attachment"/>
+                  </coding>
+               </category>
+               <code>
+                  <coding>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/annex-types"/>
+                     <code value="functional-report"/>
+                  </coding>
+               </code>
+               <valueAttachment>
+                  <contentType value="application/pdf"/>
+                  <data value="QW5uZXhlIGlubGluZSwgYmFzZTY0ZWQ="/>
+                  <title value="nom de l'annexe"/>
+               </valueAttachment>
+            </supportingInfo>
+            <supportingInfo>
+               <sequence value="2"/>
                <category>
                   <coding>
                      <system value="http://terminology.hl7.org/CodeSystem/claiminformationcategory"/>
                      <code value="info"/>
                   </coding>
                </category>
-               <code>
-                  <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/mycarenet-eattest-cancel-reason"/>
-                     <code value="A"/>
-                  </coding>
-               </code>
+               <valueString value="additional Information"/>
             </supportingInfo>
             <insurance>
                <sequence value="1"/>
@@ -170,6 +179,7 @@
                <coverage>
                   <display value="use of mandatory insurance coverage, no further details provided here."/>
                </coverage>
+               <preAuthRef value="identifiant business de la décision à argumenter"/>
             </insurance>
          </Claim>
       </resource>

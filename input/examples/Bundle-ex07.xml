@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bundle xmlns="http://hl7.org/fhir">
-   <id value="eattest-ex04"/>
+   <id value="ex07"/>
    <meta>
-      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestdemandreply"/>
+      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementdemandreply"/>
    </meta>
    <type value="message"/>
    <timestamp value="2015-07-14T11:15:37+02:00"/>
@@ -16,10 +16,10 @@
             </meta>
             <eventCoding>
                <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/message-events"/>
-               <code value="eattestresponse-cancel"/>
+               <code value="reject"/>
             </eventCoding>
             <destination>
-               <endpoint value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
+               <endpoint value="PractitionerRole1"/>
                <receiver>
                   <reference
                                   value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
@@ -34,11 +34,11 @@
             </source>
             <response>
                <identifier value="267b18ce-3d37-4581-9baa-6fada338038b"/>
-               <code value="ok"/>
+               <code value="fatal-error"/>
             </response>
             <focus>
                <reference
-                               value="urn:uuid:0a0d60df-0340-45a6-a493-a5d67f74d693"/>
+                               value="urn:uuid:99613879-db9d-4bee-ad78-633cbf164800"/>
             </focus>
          </MessageHeader>
       </resource>
@@ -100,69 +100,25 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
+      <fullUrl value="urn:uuid:99613879-db9d-4bee-ad78-633cbf164800"/>
       <resource>
-         <Patient>
-            <id value="Patient1"/>
+         <OperationOutcome>
+            <id value="OperationOutcome1"/>
             <meta>
-               <profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"/>
+               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-operationoutcome"/>
             </meta>
-            <identifier>
-               <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"/>
-               <value value="73031805784"/>
-            </identifier>
-            <name>
-               <family value="Dupont"/>
-               <given value="Jean"/>
-            </name>
-            <gender value="male"/>
-         </Patient>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="urn:uuid:0a0d60df-0340-45a6-a493-a5d67f74d693"/>
-      <resource>
-         <ClaimResponse>
-            <id value="ClaimResponse1"/>
-            <meta>
-               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestclaimresponse"/>
-            </meta>
-            <identifier>
-        <!-- attestationID cancelled-->
-               <system value="https://www.mycarenet.be/eattest"/>
-               <value value="identification number of attestation"/>
-            </identifier>
-            <status value="cancelled"/>
-            <type>
-               <coding>
-                  <system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
-                  <code value="professional"/>
-               </coding>
-            </type>
-            <subType>
-        <!-- attestationType -->
-               <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/eattest-types"/>
-                  <code value="physiotherapy"/>
-               </coding>
-            </subType>
-            <use value="claim"/>
-            <patient>
-               <reference
-                               value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
-            </patient>
-            <created value="2015-07-14T11:15:30+02:00"/>
-            <insurer>
-               <reference
-                               value="urn:uuid:cfabb40d-a53f-4c56-bc19-725ea669b358"/>
-            </insurer>
-            <requestor>
-        <!-- serviceProvider -->
-               <reference
-                               value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
-            </requestor>
-            <outcome value="complete"/>
-         </ClaimResponse>
+            <issue>
+               <severity value="error"/>
+               <code value="structure"/>
+               <details>
+                  <coding>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-errors"/>
+                     <code value="MISSING_PRACTITIONERROLE_PRACTITIONER_REFERENCE"/>
+                  </coding>
+               </details>
+               <expression value="Bundle.entry[2].resource.ofType(PractitionerRole).practitioner"/>
+            </issue>
+         </OperationOutcome>
       </resource>
    </entry>
 </Bundle>

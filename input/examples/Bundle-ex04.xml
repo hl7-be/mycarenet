@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bundle xmlns="http://hl7.org/fhir">
-   <id value="eattest-ex04"/>
+   <id value="ex04"/>
    <meta>
-      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestdemandreply"/>
+      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementdemandreply"/>
    </meta>
    <type value="message"/>
    <timestamp value="2015-07-14T11:15:37+02:00"/>
@@ -16,7 +16,7 @@
             </meta>
             <eventCoding>
                <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/message-events"/>
-               <code value="eattestresponse-cancel"/>
+               <code value="claimresponse-decide"/>
             </eventCoding>
             <destination>
                <endpoint value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
@@ -108,8 +108,14 @@
                <profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"/>
             </meta>
             <identifier>
-               <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"/>
-               <value value="73031805784"/>
+               <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancymembership"/>
+               <value value="n° inscription mutualiste"/>
+               <assigner>
+                  <identifier>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancenumber"/>
+                     <value value="n° mutualité"/>
+                  </identifier>
+               </assigner>
             </identifier>
             <name>
                <family value="Dupont"/>
@@ -125,14 +131,9 @@
          <ClaimResponse>
             <id value="ClaimResponse1"/>
             <meta>
-               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestclaimresponse"/>
+               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementclaimresponse"/>
             </meta>
-            <identifier>
-        <!-- attestationID cancelled-->
-               <system value="https://www.mycarenet.be/eattest"/>
-               <value value="identification number of attestation"/>
-            </identifier>
-            <status value="cancelled"/>
+            <status value="active"/>
             <type>
                <coding>
                   <system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
@@ -140,13 +141,12 @@
                </coding>
             </type>
             <subType>
-        <!-- attestationType -->
                <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/eattest-types"/>
-                  <code value="physiotherapy"/>
+                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"/>
+                  <code value="physiotherapy-fb"/>
                </coding>
             </subType>
-            <use value="claim"/>
+            <use value="preauthorization"/>
             <patient>
                <reference
                                value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
@@ -157,11 +157,32 @@
                                value="urn:uuid:cfabb40d-a53f-4c56-bc19-725ea669b358"/>
             </insurer>
             <requestor>
-        <!-- serviceProvider -->
                <reference
                                value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
             </requestor>
             <outcome value="complete"/>
+            <preAuthRef value="identifiant business de la décision (accord/refus/en traitement)"/>
+            <preAuthPeriod>
+               <start value="2020-01-15"/>
+               <end value="2020-03-15"/>
+            </preAuthPeriod>
+            <addItem>
+               <itemSequence value="1"/>
+               <productOrService>
+                  <coding>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-physiotherapy-pathologysituationcode"/>
+                     <code value="fb-51"/>
+                  </coding>
+               </productOrService>
+               <adjudication>
+                  <category>
+                     <coding>
+                        <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/decision-values"/>
+                        <code value="agreement"/>
+                     </coding>
+                  </category>
+               </adjudication>
+            </addItem>
          </ClaimResponse>
       </resource>
    </entry>
