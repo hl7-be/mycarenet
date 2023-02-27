@@ -27,7 +27,8 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * item.productOrService.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-claim-nomenclaturecode"
 * item.quantity MS
 * item.servicedDate 1..1 MS
-* item.unitPrice MS
+* item.unitPrice 1..1 MS
+* item.net 1..1 MS
 * obeys be-inv-eattestation-prescription-standard
 * patient 1..1 MS
 * patient only Reference(BePatient)
@@ -40,7 +41,7 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * supportingInfo 0..* MS
 * supportingInfo.code MS
 * supportingInfo.valueReference MS
-* total 0..1 MS
+* total 0..1 MS // zero only cancel
 * type.coding =  http://terminology.hl7.org/CodeSystem/claim-type#professional
 * use = #claim
 
