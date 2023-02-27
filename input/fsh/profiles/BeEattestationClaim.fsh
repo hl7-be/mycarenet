@@ -10,7 +10,7 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * enterer only Reference(BePractitionerRole)
 * extension contains BeExtEAttestationSupplement named supplement 0..1 MS
 * identifier 0.. MS
-* identifier contains https://www.mycarenet.be/eattest named eattestid 0..1 MS
+* identifier contains $eattestid named eattestid 0..1 MS
 * insurance.coverage.display = "use of mandatory insurance coverage, no further details provided here."
 * insurance.focal = true
 * insurance.sequence = 1
@@ -30,7 +30,7 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * item.servicedDate 1..1 MS
 * item.unitPrice 1..1 MS
 * item.net 1..1 MS
-* obeys be-inv-eattestation-prescription-standard
+* obeys be-inv-eattestation-prescription-standard and be-inv-eattestation-create-cancel
 * patient 1..1 MS
 * patient only Reference(BePatient)
 * payee.type.coding = http://terminology.hl7.org/CodeSystem/payeetype#subscriber

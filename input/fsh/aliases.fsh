@@ -11,3 +11,4 @@ Alias: $nihdi-physiotherapy-pathologysituationcode = https://www.ehealth.fgov.be
 Alias: $decision-values = https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/decision-values
 Alias: $refusal-values = https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/refusal-values
 Alias: $agreement-errors = https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-errors
+Alias: $eattestid = https://www.mycarenet.be/eattest
