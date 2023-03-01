@@ -13,6 +13,7 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 dependencies:
   hl7.fhir.be.core: current
   hl7.fhir.be.core-clinical: current
+  hl7.fhir.be.nihdi-terminology: current
   
 
 # The pages property corresponds to IG.definition.page. SUSHI can

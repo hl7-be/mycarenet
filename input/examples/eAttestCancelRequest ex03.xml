@@ -2,7 +2,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="eattest-ex03"/>
    <meta>
-      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestdemand"/>
+      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestation-request"/>
    </meta>
    <type value="message"/>
    <timestamp value="2015-07-14T11:15:33+02:00"/>
@@ -106,7 +106,7 @@
             <id value="Claim1"/>
             <meta>
         <!-- new profile to create for the request -->
-               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestclaim"/>
+               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestation-claim"/>
             </meta>
             <identifier>
         <!-- attestationID to cancel -->
@@ -123,7 +123,7 @@
             <subType>
         <!-- attestationType -->
                <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/eattest-types"/>
+                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/be-cs-eattestation-types"/>
                   <code value="physiotherapy"/>
                </coding>
             </subType>
@@ -159,7 +159,7 @@
                </category>
                <code>
                   <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/mycarenet-eattest-cancel-reason"/>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/be-cs-eattestation-cancel-reason"/>
                      <code value="A"/>
                   </coding>
                </code>

@@ -7,6 +7,8 @@ NIC(Nationaal Intermutualistisch College)/CIN(Collège Intermutualiste National.
 * ^version = "1.0.0"
 * ^status = #active
 * ^content = #fragment
+* ^experimental = false
+* ^caseSensitive = true
 * #REF_AGREE_ALL_001 "REF_AGREE_ALL_001"
 * #REF_AGREE_ALL_002 "REF_AGREE_ALL_002"
 * #REF_AGREE_ALL_003 "REF_AGREE_ALL_003"

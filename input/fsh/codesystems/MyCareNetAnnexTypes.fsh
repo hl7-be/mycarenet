@@ -6,6 +6,8 @@ Description: "Annex types for MyCareNet flows. Not all codes are defined here, a
 * ^version = "1.0.0"
 * ^status = #active
 * ^content = #fragment
+* ^experimental = false
+* ^caseSensitive = true
 * #functional-report "functional-report"
 * #medical-report "medical-report"
 * #physiotherapist-report "physiotherapist-report"

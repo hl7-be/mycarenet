@@ -12,13 +12,13 @@ Description: "Data from the Belgian eID"
 * extension[readingDate].value[x] only date
 * extension[readingTime].value[x] only time
 * extension[entryType].value[x] only CodeableConcept
-* extension[entryType].valueCodeableConcept.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-id-doc-inputtype"
+* extension[entryType].valueCodeableConcept from BeVSIdDocInputType (required)
 * extension[reasonManual].value[x] only CodeableConcept
-* extension[reasonManual].valueCodeableConcept.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-id-doc-manual-input-justification"
+* extension[reasonManual].valueCodeableConcept from BeVSIdDocManualInputJustification (required)
 * extension[stickerReason].value[x] only CodeableConcept
-* extension[stickerReason].valueCodeableConcept.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-id-doc-vignette-use-justification"
+* extension[stickerReason].valueCodeableConcept from BeVSIdDocVignetteUseJustification (required)
 * extension[medium].value[x] only CodeableConcept
-* extension[medium].valueCodeableConcept.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-id-doc-mediatype"
+* extension[medium].valueCodeableConcept from BeVSIdDocMediaType (required)
 * extension[serialNumber].value[x] only string
 
 * ^context.type = #element

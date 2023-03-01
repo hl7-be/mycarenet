@@ -19,8 +19,8 @@ Description: "Profile for the request of an eAttestation in the MyCareNet flows.
     practitionerRole 0..* MS and
     organization 0..1 MS and
     patient 1..1 MS and
-    serviceRequest 1..1 MS and 
-    location 1..* MS and
+    serviceRequest 0..1 MS and 
+    location 0..* MS and
     claim 1.. MS
 * entry[messageHeader].fullUrl 1..
 * entry[messageHeader].resource 1..

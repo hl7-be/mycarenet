@@ -142,7 +142,7 @@
             <subType>
                     <!--attestationType-->
                <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/eattestation-types"/>
+                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/be-cs-eattestation-types"/>
                   <code value="physiotherapy"/>
                </coding>
             </subType>
@@ -172,7 +172,7 @@
                <productOrService>
                         <!--service identifier for item-->
                   <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-claim-nomenclaturecode"/>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/be-ns-nihdi-nomenclature"/>
                      <code value="101032"/>
                   </coding>
                </productOrService>

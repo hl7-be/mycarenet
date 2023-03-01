@@ -2,7 +2,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="eattest-ex04"/>
    <meta>
-      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestdemandreply"/>
+      <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestation-response"/>
    </meta>
    <type value="message"/>
    <timestamp value="2015-07-14T11:15:37+02:00"/>
@@ -125,7 +125,7 @@
          <ClaimResponse>
             <id value="ClaimResponse1"/>
             <meta>
-               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestclaimresponse"/>
+               <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eattestation-claimresponse"/>
             </meta>
             <identifier>
         <!-- attestationID cancelled-->
@@ -142,7 +142,7 @@
             <subType>
         <!-- attestationType -->
                <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/eattest-types"/>
+                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/be-cs-eattestation-types"/>
                   <code value="physiotherapy"/>
                </coding>
             </subType>

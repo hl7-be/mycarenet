@@ -6,6 +6,8 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * ^version = "1.0.0"
 * ^status = #active
 * ^content = #fragment
+* ^experimental = false
+* ^caseSensitive = true
 * #fa-1 "fa-1"
 * #fa-1 ^designation[0].language = #nl-BE
 * #fa-1 ^designation[=].value = "a) Volgende posttraumatische of postoperatieve aandoeningen:situaties waarin één of meerdere verstrekkingen uit artikel 14 k) (orthopedie), I (heelkundige verstrekkingen) en III\r\n(diagnostische en therapeutische arthroscopieën) zijn aangerekend en waarin de verstrekking of de som van die\r\nverstrekkingen overeenkomst met een waarde van N 200 of meer;"
@@ -105,12 +107,12 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #fb-59 ^designation[0].language = #nl-BE
 * #fb-59 ^designation[=].value = "b) Psychomotorische ontwikkelingsstoornissen\r\nBij kinderen onder 16 jaar, na advies en behandelingsvoorstel door een van ondervermelde\r\ngeneesheren-specialisten en met een significant zwakkere score op een gestandaardiseerde test;\r\nGeneesheer-specialist voor:\r\n- (neuro)pediatrie\r\n- (neuro)pediatrie en F en P (*)\r\n- neuropsychiatrie en F en P (*)\r\n- neurologie\r\n- neurologie en F en P (*)\r\n- psychiatrie\r\n- psychiatrie en F en P (*)\r\n(*) F en P = specialist voor functionele en professionele revalidatie voor gehandicapten\r\nBij kinderen onder 19 maanden kan bovenvermeld advies, behandelingsvoorstel en significant\r\nzwakkere score vervangen worden door de vaststelling van klinisch duidelijke\r\nontwikkelingsstoornissen op basis van een evaluatie in een gespecialiseerde multidisciplinaire\r\nequipe, waar ten minste een (neuro)pediater deel van uitmaakt."
 * #fb-59 ^designation[+].language = #fr-BE
-* #fb-59 ^designation[=].value = "b) Troubles du développement psychomoteur\r\nChez les enfants de moins de 16 ans, après avis et proposition de traitement d’un des médecins spécialistes mentionnés\r\nci-dessous, et avec un score significativement plus faible sur un test standardisé ;\r\nMédecin spécialiste en :\r\n- (neuro)pédiatrie\r\n- (neuro)pédiatrie et F et P (*)\r\n- neuropsychiatrie et F et P (*)\r\n- neurologie\r\n- neurologie et F et P (*)\r\n- psychiatrie\r\n- psychiatrie et F et P (*)\r\n\r\n(*) F et P = spécialiste en réadaptation fonctionnelle et professionnelle des handicapés\r\nChez les enfants de moins de 19 mois, l’avis, la proposition de traitement et le score significativement plus faible mentionnés\r\nci-dessus peuvent être remplacés par la constatation de troubles manifestes clinique du développement sur base d’une\r\névaluation effectuée par une équipe multidisciplinaire spécialisée, qui compte au moins un (neuro)pédiatre\r\n"
+* #fb-59 ^designation[=].value = "b) Troubles du développement psychomoteur\r\nChez les enfants de moins de 16 ans, après avis et proposition de traitement d’un des médecins spécialistes mentionnés\r\nci-dessous, et avec un score significativement plus faible sur un test standardisé ;\r\nMédecin spécialiste en :\r\n- (neuro)pédiatrie\r\n- (neuro)pédiatrie et F et P (*)\r\n- neuropsychiatrie et F et P (*)\r\n- neurologie\r\n- neurologie et F et P (*)\r\n- psychiatrie\r\n- psychiatrie et F et P (*)\r\n\r\n(*) F et P = spécialiste en réadaptation fonctionnelle et professionnelle des handicapés\r\nChez les enfants de moins de 19 mois, l’avis, la proposition de traitement et le score significativement plus faible mentionnés\r\nci-dessus peuvent être remplacés par la constatation de troubles manifestes clinique du développement sur base d’une\r\névaluation effectuée par une équipe multidisciplinaire spécialisée, qui compte au moins un (neuro)pédiatre"
 * #fb-54 "fb-54"
 * #fb-54 ^designation[0].language = #nl-BE
 * #fb-54 ^designation[=].value = "c) Ademhalingsinsufficiëntie bij rechthebbenden die opgevolgd worden in het kader van de\r\ntyperevalidatie-overeenkomst inzake langdurige zuurstoftherapie thuis of bij thuisbeademing."
 * #fb-54 ^designation[+].language = #fr-BE
-* #fb-54 ^designation[=].value = "c) Insuffisance respiratoire chez les bénéficiaires qui sont suivis dans le cadre de la convention-type de rééducation fonctionnelle relative à l'oxygénothérapie de longue durée à domicile ou en cas de respiration artificielle à domicile.\r\n"
+* #fb-54 ^designation[=].value = "c) Insuffisance respiratoire chez les bénéficiaires qui sont suivis dans le cadre de la convention-type de rééducation fonctionnelle relative à l'oxygénothérapie de longue durée à domicile ou en cas de respiration artificielle à domicile."
 * #fb-55 "fb-55"
 * #fb-55 ^designation[0].language = #nl-BE
 * #fb-55 ^designation[=].value = "d) Chronische motorische of gemengde polyneuropathie."
@@ -135,7 +137,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #fb-60 ^designation[0].language = #nl-BE
 * #fb-60 ^designation[=].value = "h) Lymfoedeem\r\ndie voldoen aan de voorwaarden beschreven in de nomenclatuur"
 * #fb-60 ^designation[+].language = #fr-BE
-* #fb-60 ^designation[=].value = "h) lymphoedème \r\nrépondant aux conditions prévues dans la nomenclature\r\n"
+* #fb-60 ^designation[=].value = "h) lymphoedème \r\nrépondant aux conditions prévues dans la nomenclature"
 * #e-na "e-na"
 * #e-na ^designation[0].language = #nl-BE
 * #e-na ^designation[=].value = "Onbepaalde pathologische situatie (oud papier akkoord)"
@@ -380,7 +382,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * #eb-5-2-1 ^designation[0].language = #nl-BE
 * #eb-5-2-1 ^designation[=].value = "Ernstige gewrichtsdysfunctie ten gevolge van:erfelijke bindweefselaandoeningen/osteogenesis imperfecta van het type III en IV"
 * #eb-5-2-1 ^designation[+].language = #fr-BE
-* #eb-5-2-1 ^designation[=].value = "Dysfonction articulaire grave résultant :maladies héréditaires du tissu conjonctif/ostéogenèse imparfaite de type III et IV  "
+* #eb-5-2-1 ^designation[=].value = "Dysfonction articulaire grave résultant :maladies héréditaires du tissu conjonctif/ostéogenèse imparfaite de type III et IV"
 * #eb-5-2-2 "eb-5-2-2"
 * #eb-5-2-2 ^designation[0].language = #nl-BE
 * #eb-5-2-2 ^designation[=].value = "Ernstige gewrichtsdysfunctie ten gevolge van:erfelijke bindweefselaandoeningen/Ehlers-Danlos-syndroom"

@@ -30,7 +30,7 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * item.informationSequence MS
 * item.locationReference 0..1 MS
 * item.productOrService MS
-* item.productOrService.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-claim-nomenclaturecode"
+* item.productOrService.coding.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/be-ns-nihdi-nomenclature"
 * item.quantity MS
 * item.servicedDate 1..1 MS
 * item.unitPrice 1..1 MS

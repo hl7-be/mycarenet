@@ -156,7 +156,7 @@
             <!-- prescription requester standard for item -->
                <valueCodeableConcept>
                   <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-requestor-norm"/>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-requester-norm"/>
                      <code value="1"/>
                   </coding>
                </valueCodeableConcept>
@@ -248,7 +248,7 @@
             <subType>
         <!-- attestationType -->
                <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/eattestation-types"/>
+                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/be-cs-eattestation-types"/>
                   <code value="physiotherapy"/>
                </coding>
             </subType>
@@ -385,7 +385,7 @@
                </category>
                <code>
                   <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-claim-treatment-reason"/>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-treatment-reason"/>
                      <code value="0050"/>
                   </coding>
                </code>
@@ -401,7 +401,7 @@
                </category>
                <code>
                   <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-claim-normcode"/>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-claim-norm-code"/>
                      <code value="1"/>
                   </coding>
                </code>
@@ -417,7 +417,7 @@
                </category>
                <code>
                   <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-claim-relatedclaim"/>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/NamingSystem/be-ns-claim-related-claim"/>
                      <code value="000000"/>
                   </coding>
                </code>
@@ -433,7 +433,7 @@
                </category>
                <code>
                   <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-claim-transplantationcode"/>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-claim-transplantation-code"/>
                      <code value="1"/>
                   </coding>
                </code>
@@ -449,7 +449,7 @@
                </category>
                <code>
                   <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-claim-exemptioncode"/>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-claim-exemption-code"/>
                      <code value="01"/>
                   </coding>
                </code>
@@ -498,7 +498,7 @@
                   <extension url="entryType">
                      <valueCodeableConcept>
                         <coding>
-                           <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-id-doc-inputtype"/>
+                           <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-id-doc-input-type"/>
                            <code value="4"/>
                         </coding>
                      </valueCodeableConcept>
@@ -506,7 +506,7 @@
                   <extension url="reasonManual">
                      <valueCodeableConcept>
                         <coding>
-                           <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-id-doc-manual-input-justification"/>
+                           <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-id-doc-manual-input-justification"/>
                            <code value="2"/>
                         </coding>
                      </valueCodeableConcept>
@@ -514,7 +514,7 @@
                   <extension url="medium">
                      <valueCodeableConcept>
                         <coding>
-                           <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-id-doc-mediatype"/>
+                           <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-id-doc-media-type"/>
                            <code value="1"/>
                         </coding>
                      </valueCodeableConcept>
@@ -522,7 +522,7 @@
                   <extension url="stickerReason">
                      <valueCodeableConcept>
                         <coding>
-                           <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-id-doc-vignette-use-justification"/>
+                           <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-id-doc-vignette-use-justification"/>
                            <code value="1"/>
                         </coding>
                      </valueCodeableConcept>
@@ -545,7 +545,7 @@
                <productOrService>
           <!-- identifier for item -->
                   <coding>
-                     <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-claim-nomenclaturecode"/>
+                     <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/be-ns-nihdi-nomenclature"/>
                      <code value="101032"/>
                   </coding>
                </productOrService>

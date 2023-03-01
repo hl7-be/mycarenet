@@ -18,10 +18,7 @@ Description: "Claimresponse profile for use in the different eAttestation flows 
 * type.coding.system 1..
 * type.coding.code 1..
 * subType 1.. MS
-* subType.coding 1..1
-* subType.coding.system 1..
-* subType.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/eattestation-types"
-* subType.coding.code 1..
+* subType from BeVSEattestationTypes (extensible)
 * use MS
 * patient only Reference(BePatient)
 * patient MS
@@ -34,9 +31,10 @@ Description: "Claimresponse profile for use in the different eAttestation flows 
 * outcome MS
 * addItem MS
 * addItem.itemSequence 1..1 MS
-* addItem.productOrService from BeProductOrServiceNihdiEAgreement (extensible)
+* addItem.productOrService 1.. MS
 * addItem.productOrService.coding 1..1
 * addItem.productOrService.coding.system 1..
+* addItem.productOrService.coding.system  = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/be-ns-nihdi-nomenclature"
 * addItem.productOrService.coding.code 1..
 * addItem.servicedDate 1.. MS
 * addItem.unitPrice 1.. MS
