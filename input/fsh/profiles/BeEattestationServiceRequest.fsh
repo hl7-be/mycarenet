@@ -20,7 +20,7 @@ Description: "The ServiceRequest profile for use in the different eAttestation f
 * intent = #order (exactly)
 * intent MS
 * requester MS
-* requester only Reference(BePractitionerRole or BePractitioner)
+* requester only Reference(BePractitionerRole)
 * status = #active (exactly)
 * status MS
 * subject MS

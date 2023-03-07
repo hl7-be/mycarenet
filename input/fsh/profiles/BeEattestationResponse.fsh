@@ -15,9 +15,10 @@ Description: "Profile for the response of an eAttestation in the MyCareNet flows
     messageHeader 1..1 MS and
     practitioner 0..* MS and
     practitionerRole 0..* MS and
-    organization 0..1 MS and
-    patient 1..1 MS and
-    claimresponse 1..1 MS 
+    organization 1..2 MS and
+    patient 0..1 MS and
+    claimresponse 0..1 MS and
+    operationOutcome 0..1 MS
 * entry[messageHeader].fullUrl 1..
 * entry[messageHeader].resource 1..
 * entry[messageHeader].resource only BeMyCareNetMessageHeader
@@ -36,3 +37,6 @@ Description: "Profile for the response of an eAttestation in the MyCareNet flows
 * entry[claimresponse].fullUrl 1..
 * entry[claimresponse].resource 1..
 * entry[claimresponse].resource only BeEattestationClaimResponse
+* entry[operationOutcome].fullUrl 1..
+* entry[operationOutcome].resource 1..
+* entry[operationOutcome].resource only OperationOutcome

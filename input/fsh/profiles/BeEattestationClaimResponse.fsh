@@ -20,13 +20,14 @@ Description: "Claimresponse profile for use in the different eAttestation flows 
 * subType 1.. MS
 * subType from BeVSEattestationTypes (extensible)
 * use MS
+* use = #claim
 * patient only Reference(BePatient)
 * patient MS
 * created MS
 * insurer only Reference(BeOrganization)
 * insurer MS
 * requestor 1.. MS
-* requestor only Reference(BeOrganization or BePractitioner or BePractitionerRole)
+* requestor only Reference(BeOrganization or BePractitionerRole)
 * requestor.reference 1..
 * outcome MS
 * addItem MS
@@ -42,6 +43,8 @@ Description: "Claimresponse profile for use in the different eAttestation flows 
 * addItem.quantity 1.. MS
 * addItem.adjudication 1.. MS 
 * addItem.adjudication ^short = "Is mandatory on Int'l level"
+* addItem.provider 1.. MS
+* addItem.provider only Reference(BePractitionerRole)
 
 
 
