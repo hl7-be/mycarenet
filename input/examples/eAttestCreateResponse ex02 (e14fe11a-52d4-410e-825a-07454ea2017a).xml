@@ -161,7 +161,7 @@
                <reference
                                value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
             </requestor>
-            <outcome value="complete"/>
+            <outcome value="partial"/>
             <addItem>
                <itemSequence value="1"/>
                <provider>
@@ -195,7 +195,7 @@
                   <category>
                      <coding>
                         <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/decision-values"/>
-                        <code value="agreement"/>
+                        <code value="intreatment"/>
                      </coding>
                   </category>
                </adjudication>
