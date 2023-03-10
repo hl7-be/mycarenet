@@ -43,7 +43,8 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
     be-inv-gmd-holder and
     be-inv-transplantation and
     be-inv-bodySite and
-    be-inv-toothNumber
+    be-inv-toothNumber and
+    be-inv-location
 * patient 1..1 MS
 * patient only Reference(BePatient)
 * payee.type.coding = http://terminology.hl7.org/CodeSystem/payeetype#subscriber
