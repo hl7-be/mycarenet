@@ -25,7 +25,7 @@ Description: "Claim profile for use in the different eAttestation flow from MyCa
 * item.bodySite.extension contains BeExtLaterality named bodyLaterality 0..1 MS
 * item.careTeamSequence 1..* MS
 * item.extension contains BeExtEAttestationItemPatientIdentityDocument named eid 0..1 MS
-* item.extension contains BeExtEAttestationItemPreAuthRef named preAuthRef 1..1 MS
+* item.extension contains BeExtEAttestationItemPreAuthRef named preAuthRef 0..1 MS
 * item.extension contains BeExtEAttestationItemSupplement named supplement 0..1 MS
 * item.informationSequence MS
 * item.locationReference 0..1 MS
