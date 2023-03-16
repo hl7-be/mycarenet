@@ -4,7 +4,7 @@ Id: be-eattestation-claimresponse
 Title: "MyCareNet eAttestation Claim Response BE profile"
 Description: "Claimresponse profile for use in the different eAttestation flows from MyCareNet."
 * ^status = #active
-* identifier 0.. MS
+* identifier 1.. MS
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
@@ -16,6 +16,7 @@ Description: "Claimresponse profile for use in the different eAttestation flows 
 * type MS
 * type.coding 1..1
 * type.coding.system 1..
+* type.coding =  http://terminology.hl7.org/CodeSystem/claim-type#professional
 * type.coding.code 1..
 * subType 1.. MS
 * subType from BeVSEattestationTypes (extensible)
@@ -42,7 +43,7 @@ Description: "Claimresponse profile for use in the different eAttestation flows 
 * addItem.net 1.. MS
 * addItem.quantity 1.. MS
 * addItem.adjudication 1.. MS 
-* addItem.adjudication ^short = "Is mandatory on Int'l level"
+* addItem.adjudication.reason from BeVSDecisionValues (extensible)   
 * addItem.provider 1.. MS
 * addItem.provider only Reference(BePractitionerRole)
 

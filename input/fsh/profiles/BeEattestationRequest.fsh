@@ -7,8 +7,9 @@ Description: "Profile for the request of an eAttestation in the MyCareNet flows.
 * ^version = "1.0.0"
 * id 1.. MS
 * type MS
+* type = #message
 * timestamp 1.. MS
-* entry 4..
+* entry 2..
 * entry ^slicing.discriminator.type = #type
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.description = "Slice based on the entry.resource type"
@@ -21,7 +22,7 @@ Description: "Profile for the request of an eAttestation in the MyCareNet flows.
     patient 1..1 MS and
     serviceRequest 0..* MS and 
     location 0..* MS and
-    claim 1.. MS
+    claim 1..1 MS
 * entry[messageHeader].fullUrl 1..
 * entry[messageHeader].resource 1..
 * entry[messageHeader].resource only BeMyCareNetMessageHeader

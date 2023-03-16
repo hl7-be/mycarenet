@@ -5,6 +5,7 @@ Title: "MyCareNet eAttestation Response Bundle BE profile"
 Description: "Profile for the response of an eAttestation in the MyCareNet flows."
 * id 1.. MS
 * type MS
+* type = #message
 * timestamp 1.. MS
 * entry 4..
 * entry ^slicing.discriminator.type = #type
