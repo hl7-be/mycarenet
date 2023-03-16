@@ -27,7 +27,7 @@ Description: "Claimresponse profile for use in the different eAttestation flows 
 * created MS
 * insurer only Reference(BeOrganization)
 * insurer MS
-* requestor 1.. MS
+* requestor 0.. MS
 * requestor only Reference(BeOrganization or BePractitionerRole)
 * requestor.reference 1..
 * outcome MS
