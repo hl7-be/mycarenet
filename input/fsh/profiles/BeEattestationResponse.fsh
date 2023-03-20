@@ -7,7 +7,7 @@ Description: "Profile for the response of an eAttestation in the MyCareNet flows
 * type MS
 * type = #message
 * timestamp 1.. MS
-* entry 4..
+* entry 2..
 * entry ^slicing.discriminator.type = #type
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.description = "Slice based on the entry.resource type"

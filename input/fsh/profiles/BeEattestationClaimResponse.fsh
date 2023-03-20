@@ -8,7 +8,7 @@ Description: "Claimresponse profile for use in the different eAttestation flows 
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
-* identifier contains eattestid 0..1 MS
+* identifier contains eattestid 1..1 MS
 * identifier[eattestid].system = $eattestid (exactly)
 * identifier[eattestid].value 1..1
 * id 1.. MS
