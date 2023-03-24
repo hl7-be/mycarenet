@@ -5,5 +5,6 @@ Description: "Codes for use to describe eAgreement messages in the MyCareNet eAg
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/ValueSet/eagreementmessage"
 * ^version = "1.0.0"
 * ^status = #active
+* ^experimental = false
 * include codes from system MyCareNetMessageEvents
 * include codes from system $restful-interaction

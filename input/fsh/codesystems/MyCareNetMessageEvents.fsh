@@ -6,6 +6,8 @@ Description: "Message events for MyCareNet flows.Not all codes are defined here,
 * ^version = "1.0.0"
 * ^status = #active
 * ^content = #fragment
+* ^experimental = false
+* ^caseSensitive = true
 * #claim-ask "claim-ask"
 * #claim-cancel "claim-cancel"
 * #claim-completeAgreement "claim-completeAgreement"

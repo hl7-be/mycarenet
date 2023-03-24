@@ -6,6 +6,8 @@ Description: "Agreement types for MyCareNet flows. Not all codes are defined her
 * ^version = "1.0.0"
 * ^status = #active
 * ^content = #fragment
+* ^experimental = false
+* ^caseSensitive = true
 * #physiotherapy-fa "physiotherapy-fa"
 * #physiotherapy-fb "physiotherapy-fb"
 * #physiotherapy-eb "physiotherapy-eb"

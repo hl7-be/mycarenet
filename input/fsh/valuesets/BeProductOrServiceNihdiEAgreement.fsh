@@ -5,4 +5,5 @@ Description: "NIHDI codes for use to describe eAgreement products or services in
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/ValueSet/eagreementproductorservice"
 * ^version = "1.0.0"
 * ^status = #active
+* ^experimental = false
 * include codes from system NIHDIPhysiotherapyPathologySituationCode
