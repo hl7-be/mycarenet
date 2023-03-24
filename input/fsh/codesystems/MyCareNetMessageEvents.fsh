@@ -19,3 +19,7 @@ Description: "Message events for MyCareNet flows.Not all codes are defined here,
 * #claimresponse-close "claimresponse-close"
 * #claimresponse-completeAgreement "claimresponse-completeAgreement"
 * #reject "reject"
+* #eattest-create  "eattest-create"
+* #eattestresponse-create  "eattestresponse-create"
+* #eattest-cancel  "eattest-cancel"
+* #eattestresponse-cancel "eattestresponse-cancel"
