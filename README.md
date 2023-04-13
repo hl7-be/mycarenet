@@ -1,6 +1,6 @@
-Empty IG
+Mycarenet IG
 ---
-This is an empty IG
+This IG contains all common CIN-NIC resources and the eAgreement resources. Other resources for the CIN-NIC have their own packages that depend on this one.
 <br> </br>
 ###
 ### Publication
