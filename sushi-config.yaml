@@ -73,3 +73,35 @@ parameters:
   apply-publisher: 'true'
   apply-version: 'true'  
 
+resources:
+  Bundle/ex01:
+     name: Request for agreement
+  Bundle/ex02:
+     name: Ask for a new agreement by a physiotherapist with patient identified by mutuality registration number
+  Bundle/ex03:
+     name: Ask for a new agreement by a physiotherapist with patient identified by national registration number
+  Bundle/ex04:
+     name: Reply to an ask with an agreement response
+  Bundle/ex05:
+     name: Reply to an ask with an intreatment response
+  Bundle/ex06:
+     name: Response with decision
+  Bundle/ex07:
+     name: Reject the ask with a reject response
+  Bundle/ex08:
+     name: Request for cancellation
+  Bundle/ex09:
+     name: Reply to a cancel with a cancelled response
+  Bundle/ex10:
+     name: Request for a claim modifierExtension
+  Bundle/ex11:
+     name: Request for a claim argue
+  Bundle/ex12:
+     name: Request for a consult
+  Bundle/ex13:
+     name: Reply to a consult
+  Bundle/ex14:
+     name: Request for a complete agreement
+  Bundle/ex15:
+     name: Reply to a complete
+
