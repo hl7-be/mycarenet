@@ -135,12 +135,12 @@ Usage: #definition
 * group[=].element[+].code = #41
 * group[=].element[=].display = "41"
 * group[=].element[=].target.code = #424575004
-* group[=].element[=].target.display = "424575004 |Structure of permanent mandibular right central incisor tooth (body structure)|"
+* group[=].element[=].target.display = "Structure of permanent mandibular right central incisor tooth (body structure)|"
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #42
 * group[=].element[=].display = "42"
 * group[=].element[=].target.code = #423937004
-* group[=].element[=].target.display = "423937004 |Structure of permanent mandibular right lateral incisor tooth (body structure)|"
+* group[=].element[=].target.display = "Structure of permanent mandibular right lateral incisor tooth (body structure)|"
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #43
 * group[=].element[=].display = "43"
