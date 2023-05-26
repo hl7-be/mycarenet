@@ -26,8 +26,8 @@ Description: "Coverage profile for use in the different MyCareNet flows"
 * class.type.coding.system 1..1 MS
 * class[CT1].type from BeVSHolderCode1 (extensible)
 * class[CT2].type from BeVSHolderCode2 (extensible)
-* class[CT1].type.coding.system = Canonical(BeVSHolderCode1)
-* class[CT2].type.coding.system = Canonical(BeVSHolderCode2)
+* class[CT1].type.coding.system = Canonical(BeCSHolderCode1)
+* class[CT2].type.coding.system = Canonical(BeCSHolderCode2)
 * class.type.coding.code 1..1 MS
 * class[CT1].value = "applicable"
 * class[CT2].value = "applicable"
