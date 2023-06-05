@@ -18,8 +18,8 @@ Description: "Coverage profile for use in the different MyCareNet flows"
 * class ^slicing.description = "Slice based on the class.type.coding.code value"
 * class ^slicing.rules = #open
 * class contains
-    CT1  1..1 MS and
-    CT2 1..1 MS
+    CT1  1..* MS and
+    CT2 1..* MS
 * class 2..* MS
 * class.type 1..1 MS
 * class.type.coding 1..1 MS
