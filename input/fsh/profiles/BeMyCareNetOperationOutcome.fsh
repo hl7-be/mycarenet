@@ -14,6 +14,5 @@ Description: "OperationOutcome profile for the specific error codes of MyCareNet
 * issue.details 1.. MS
 * issue.details.coding 0..1
 * issue.details.coding.system 1..
-* issue.details.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-errors"
 * issue.details.coding.code 1..
 * issue.expression 1..1 MS
