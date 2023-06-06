@@ -14,9 +14,9 @@ Description: "Coverage profile for use in the different MyCareNet flows"
 * payor 1..1 MS
 * payor only Reference(BeOrganization)
 * class.value 1..1 MS
-* class.value.extension contains BeExtSystem named system 1..1 MS
+* class.value.extension contains BeExtSystem named system 0..1 MS
 * class ^slicing.discriminator.type = #value
-* class ^slicing.discriminator.path = "value.extension.valueUri"
+* class ^slicing.discriminator.path = "value.extension("https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-ext-system").valueUri"
 * class ^slicing.description = "Slice based on the class.value.extension.valueUri value"
 * class ^slicing.rules = #open
 * class contains
@@ -29,8 +29,8 @@ Description: "Coverage profile for use in the different MyCareNet flows"
 * class.type.coding.code 1..1 MS
 * class[CT1].type from 	http://hl7.org/fhir/ValueSet/coverage-class
 * class[CT2].type from 	http://hl7.org/fhir/ValueSet/coverage-class
-* class[CT1].value.extension.valueUri = Canonical(BeCSHolderCode1)
-* class[CT2].value.extension.valueUri = Canonical(BeCSHolderCode2)
+* class[CT1].value.extension[system].valueUri = Canonical(BeCSHolderCode1)
+* class[CT2].value.extension[system].valueUri = Canonical(BeCSHolderCode2)
 * class[CT1].value from BeVSHolderCode1 (extensible)
 * class[CT2].value from BeVSHolderCode2 (extensible)
 //class:CT1.value.extension.valueUri
