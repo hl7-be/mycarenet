@@ -16,7 +16,7 @@ Description: "Coverage profile for use in the different MyCareNet flows"
 * class.value 1..1 MS
 * class.value.extension contains BeExtSystem named system 0..1 MS
 * class ^slicing.discriminator.type = #value
-* class ^slicing.discriminator.path = "value.extension("https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-ext-system").valueUri"
+* class ^slicing.discriminator.path = "value.extension(\"https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-ext-system\").valueUri"
 * class ^slicing.description = "Slice based on the class.value.extension.valueUri value"
 * class ^slicing.rules = #open
 * class contains
