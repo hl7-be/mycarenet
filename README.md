@@ -14,5 +14,6 @@ Canonical / permanent URL: __https://www.ehealth.fgov.be/standards/fhir/mycarene
 Issues and change requests are managed here:  
 
 Issues:  __https://github.com/hl7-be/mycarenet/issues__  
-Kanban board:  __https://github.com/hl7-be/mycarenet/projects/1__  
+Kanban board:  __https://github.com/hl7-be/mycarenet/projects/1__
+
 ---
