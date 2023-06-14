@@ -81,10 +81,11 @@ parameters:
   apply-publisher: 'true'
   apply-version: 'true'  
 
+
 resources:
   Bundle/ex01:
      name: ex01
-     description: Request for agreement
+     description: Ask for a new agreement by an hospital with patient identified by national registration number
   Bundle/ex02:
      name: ex02
      description: Ask for a new agreement by a physiotherapist with patient identified by mutuality registration number
@@ -99,32 +100,32 @@ resources:
      description: Reply to an ask with an intreatment response
   Bundle/ex06:
      name: ex06
-     description: Response with decision
+     description: Reply to an ask with a refusal response
   Bundle/ex07:
      name: ex07
      description: Reject the ask with a reject response
   Bundle/ex08:
      name: ex08
-     description: Request for cancellation
+     description: Ask for a cancel of an agreement by a physiotherapist
   Bundle/ex09:
      name: ex09
-     description: Reply to a cancel with a cancelled response
+     description: Ask for a cancel of an agreement by a physiotherapist
   Bundle/ex10:
      name: ex10
-     description: Request for a claim modifierExtension
+     description: Ask for an extension of an existing agreement by a physiotherapist
   Bundle/ex11:
      name: ex11
-     description: Request for a claim argue
+     description: Argue an existing demand by a physiotherapist
   Bundle/ex12:
      name: ex12
-     description: Request for a consult
+     description: Consult the current demands & agreements by physiotherapist
   Bundle/ex13:
      name: ex13
      description: Reply to a consult
   Bundle/ex14:
      name: ex14
-     description: Request for a complete agreement
+     description: Complete an existing agreement by a physiotherapist
   Bundle/ex15:
      name: ex15
-     description: Reply to a complete agreement
+     description: Reply to a complete
 
