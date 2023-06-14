@@ -83,33 +83,48 @@ parameters:
 
 resources:
   Bundle/ex01:
-     name: Request for agreement
+     name: ex01
+     description: Request for agreement
   Bundle/ex02:
-     name: Ask for a new agreement by a physiotherapist with patient identified by mutuality registration number
+     name: ex02
+     description: Ask for a new agreement by a physiotherapist with patient identified by mutuality registration number
   Bundle/ex03:
-     name: Ask for a new agreement by a physiotherapist with patient identified by national registration number
+     name: ex03
+     description: Ask for a new agreement by a physiotherapist with patient identified by national registration number
   Bundle/ex04:
-     name: Reply to an ask with an agreement response
+     name: ex04
+     description: Reply to an ask with an agreement response
   Bundle/ex05:
-     name: Reply to an ask with an intreatment response
+     name: ex05
+     description: Reply to an ask with an intreatment response
   Bundle/ex06:
-     name: Response with decision
+     name: ex06
+     description: Response with decision
   Bundle/ex07:
-     name: Reject the ask with a reject response
+     name: ex07
+     description: Reject the ask with a reject response
   Bundle/ex08:
-     name: Request for cancellation
+     name: ex08
+     description: Request for cancellation
   Bundle/ex09:
-     name: Reply to a cancel with a cancelled response
+     name: ex09
+     description: Reply to a cancel with a cancelled response
   Bundle/ex10:
-     name: Request for a claim modifierExtension
+     name: ex10
+     description: Request for a claim modifierExtension
   Bundle/ex11:
-     name: Request for a claim argue
+     name: ex11
+     description: Request for a claim argue
   Bundle/ex12:
-     name: Request for a consult
+     name: ex12
+     description: Request for a consult
   Bundle/ex13:
-     name: Reply to a consult
+     name: ex13
+     description: Reply to a consult
   Bundle/ex14:
-     name: Request for a complete agreement
+     name: ex14
+     description: Request for a complete agreement
   Bundle/ex15:
-     name: Reply to a complete
+     name: ex15
+     description: Reply to a complete agreement
 
