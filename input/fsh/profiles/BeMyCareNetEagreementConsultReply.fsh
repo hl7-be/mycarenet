@@ -44,3 +44,4 @@ Description: "Profile for the reply to consulting eAgreement request in the MyCa
 * entry[operationOutcome].fullUrl 1..
 * entry[operationOutcome].resource 1..
 * entry[operationOutcome].resource only BeMyCareNetOperationOutcome
+* entry[operationOutcome].resource.issue.details.coding from BeVSEagreementErrors (extensible)

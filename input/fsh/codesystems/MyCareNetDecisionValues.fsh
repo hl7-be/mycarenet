@@ -14,3 +14,4 @@ NIC(Nationaal Intermutualistisch College)/CIN(Collège Intermutualiste National.
 * #refusal "refusal"
 * #wfi-physiotherapist "wfi-physiotherapist"
 * #wfi-prescriptor "wfi-prescriptor"
+* #tariff "tariff"

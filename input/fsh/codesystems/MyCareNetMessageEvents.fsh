@@ -23,3 +23,5 @@ Description: "Message events for MyCareNet flows.Not all codes are defined here,
 * #eattestresponse-create  "eattestresponse-create"
 * #eattest-cancel  "eattest-cancel"
 * #eattestresponse-cancel "eattestresponse-cancel"
+* #etariff-consult "etariff-consult"
+* #etariffresponse-consult "etariffresponse-consult"
