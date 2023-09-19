@@ -6,4 +6,3 @@ Description: """Claim profile for use in the different eAgreement flow from MyCa
 This profile is a diff on the general be-eagreementclaim."""
 * item.productOrService.coding from BeVSSpeechTherapyPathologySituationCode
 * procedure.procedureCodeableConcept = $sct#386053000
-* obeys BeInvLogoReferral
