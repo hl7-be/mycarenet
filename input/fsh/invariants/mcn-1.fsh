@@ -1,4 +1,4 @@
 Invariant: mcn-1
-Description: "If identifier is present: (category, code, quantityQuantity, supportingInfo, authoredOn and contained) SHALL not be present."
+Description: "If identifier is present: (category, code, quantityQuantity, authoredOn) SHALL be present."
 Severity: #error
-Expression: "identifier.exists() implies (category.empty() and code.empty() and (quantity as Quantity).empty() and authoredOn.empty() and supportingInfo.empty() and contained.empty())"
+Expression: "identifier.exists() implies (category.exists() and code.exists() and (quantity as Quantity).exists() and authoredOn.exists() )"
