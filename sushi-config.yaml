@@ -84,48 +84,95 @@ parameters:
 
 resources:
   Bundle/ex01:
-     name: ex01
-     description: Ask for a new agreement by an hospital with patient identified by national registration number
-  Bundle/ex02:
-     name: ex02
-     description: Ask for a new agreement by a physiotherapist with patient identified by mutuality registration number
-  Bundle/ex03:
-     name: ex03
-     description: Ask for a new agreement by a physiotherapist with patient identified by national registration number
-  Bundle/ex04:
-     name: ex04
-     description: Reply to an ask with an agreement response
-  Bundle/ex05:
-     name: ex05
-     description: Reply to an ask with an intreatment response
-  Bundle/ex06:
-     name: ex06
-     description: Reply to an ask with a refusal response
-  Bundle/ex07:
-     name: ex07
-     description: Reject the ask with a reject response
-  Bundle/ex08:
-     name: ex08
-     description: Ask for a cancel of an agreement by a physiotherapist
-  Bundle/ex09:
-     name: ex09
-     description: Ask for a cancel of an agreement by a physiotherapist
-  Bundle/ex10:
-     name: ex10
-     description: Ask for an extension of an existing agreement by a physiotherapist
-  Bundle/ex11:
-     name: ex11
-     description: Argue an existing demand by a physiotherapist
-  Bundle/ex12:
-     name: ex12
-     description: Consult the current demands & agreements by physiotherapist
-  Bundle/ex13:
-     name: ex13
-     description: Reply to a consult
-  Bundle/ex14:
-     name: ex14
-     description: Complete an existing agreement by a physiotherapist
-  Bundle/ex15:
-     name: ex15
-     description: Reply to a complete
-
+    name: ex01 
+    description: FHIR Physiotherapy within Hospital eAgreementAskRequest 
+  Bundle/ex02: 
+    name: ex02 
+    description: FHIR Physiotherapy eAgreementAskRequest with patient identified by mutuality registration number 
+  Bundle/ex03: 
+    name: ex03 
+    description: FHIR Physiotherapy eAgreementAskRequest with patient identified by national registration number 
+  Bundle/ex04: 
+    name: ex04 
+    description: FHIR Physiotherapy eAgreementAskResponse with an agreement response 
+  Bundle/ex05: 
+    name: ex05 
+    description: FHIR Physiotherapy eAgreementAskResponse with an intreatment response 
+  Bundle/ex06: 
+    name: ex06 
+    description: FHIR Physiotherapy eAgreementAskResponse with a refusal response 
+  Bundle/ex07: 
+    name: ex07 
+    description: FHIR Physiotherapy eAgreementRejectResponse 
+  Bundle/ex08: 
+    name: ex08 
+    description: FHIR Physiotherapy eAgreementCancelRequest 
+  Bundle/ex09: 
+    name: ex09 
+    description: FHIR Physiotherapy eAgreementCancelResponse 
+  Bundle/ex10: 
+    name: ex10 
+    description: FHIR Physiotherapy eAgreementExtentRequest 
+  Bundle/ex11: 
+    name: ex11 
+    description: FHIR Physiotherapy eAgreementArgueRequest 
+  Bundle/ex12: 
+    name: ex12 
+    description: FHIR Physiotherapy eAgreementConsultRequest 
+  Bundle/ex13: 
+    name: ex13 
+    description: FHIR Physiotherapy eAgreementConsultResponse 
+  Bundle/ex14: 
+    name: ex14 
+    description: FHIR Physiotherapy eAgreementCompleteRequest 
+  Bundle/ex15: 
+    name: ex15 
+    description: FHIR Physiotherapy eAgreementCompleteResponse 
+  Bundle/ex16: 
+    name: ex16 
+    description: FHIR Speechtherapy eAgreementAskRequest for assessment 
+  Bundle/ex17: 
+    name: ex17 
+    description: FHIR Speechtherapy eAgreementAskRequest for treatment 
+  Bundle/ex18: 
+    name: ex18 
+    description: FHIR Speechtherapy eAgreementAskResponse for assessment with an intreatment response 
+  Bundle/ex19: 
+    name: ex19 
+    description: FHIR Speechtherapy eAgreementAskResponse for treatment with an intreatment response 
+  Bundle/ex20: 
+    name: ex20 
+    description: FHIR Speechtherapy eAgreementAskResponse for treatment with an agreement response 
+  Bundle/ex21: 
+    name: ex21 
+    description: FHIR Speechtherapy eAgreementAskResponse for assessment with a refusal response 
+  Bundle/ex22: 
+    name: ex22 
+    description: FHIR Speechtherapy eAgreementCancelRequest 
+  Bundle/ex23: 
+    name: ex23 
+    description: FHIR Speechtherapy eAgreementCancelResponse 
+  Bundle/ex24: 
+    name: ex24 
+    description: FHIR Speechtherapy eAgreementCompleteRequest 
+  Bundle/ex25: 
+    name: ex25 
+    description: FHIR Speechtherapy eAgreementCompleteResponse 
+  Bundle/ex26: 
+    name: ex26 
+    description: FHIR Speechtherapy eAgreementConsultRequest 
+  Bundle/ex27: 
+    name: ex27 
+    description: FHIR Speechtherapy eAgreementConsultResponse 
+  Bundle/ex28: 
+    name: ex28 
+    description: FHIR Speechtherapy eAgreementExtentRequest for assessment 
+  Bundle/ex29: 
+    name: ex29 
+    description: FHIR Speechtherapy eAgreementExtentRequest for treatment 
+  Bundle/ex30: 
+    name: ex30 
+    description: FHIR Speechtherapy eAgreementExtentResponse for assessment with an intreatment response 
+  Bundle/ex31: 
+    name: ex31 
+    description: FHIR Speechtherapy eAgreementRejectResponse 
