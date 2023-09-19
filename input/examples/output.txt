@@ -1,0 +1,32 @@
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementArgueRequest ex11.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementAskRequest with patient identified by mutuality registration number ex02.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementAskRequest with patient identified by national registration number ex03.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementAskResponse with a refusal response ex06.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementAskResponse with an agreement response ex04.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementAskResponse with an intreatment response ex05.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementCancelRequest ex08.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementCancelResponse ex09.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementCompleteRequest ex14.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementCompleteResponse ex15.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementConsultRequest ex12.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementConsultResponse ex13.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementExtentRequest ex10.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy eAgreementRejectResponse ex07.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Physiotherapy within Hospital eAgreementAskRequest ex01.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementAskRequest for assessment ex16.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementAskRequest for treatment ex17.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementAskResponse for assessment with a refusal response ex21.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementAskResponse for assessment with an intreatment response ex18.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementAskResponse for treatment with an agreement response ex20.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementAskResponse for treatment with an intreatment response ex19.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementCancelRequest ex22.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementCancelResponse ex23.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementCompleteRequest ex24.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementCompleteResponse ex25.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementConsultRequest ex26.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementConsultResponse ex27.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementExtentRequest for assessment ex28.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementExtentRequest for treatment ex29.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementExtentResponse for assessment with an intreatment response ex30.xml
+C:\Temp\empty\mycarenet\input\examples\FHIR Speechtherapy eAgreementRejectResponse ex31.xml
+C:\Temp\empty\mycarenet\input\examples\output.txt
