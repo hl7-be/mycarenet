@@ -84,5 +84,5 @@ Severity: #error
 
 Invariant: be-rule-eagreementclaim-3
 Description: "Procedure.date SHALL be YYYY-MM-DD"
-Expression: "Claim.procedure.date.exists() implies Claim.procedure.date.toString().length()=10"
+Expression: "Claim.procedure.date.exists() implies Claim.procedure.date.select(toString().length()=10).allTrue()"
 Severity: #error
