@@ -221,9 +221,24 @@
         </identifier>
         <status value="active"/>
         <intent value="order"/>
+        <category>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="91251008"/>
+            <display value="Physical therapy procedure"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="91251008"/>
+            <display value="Physical therapy procedure"/>
+          </coding>
+        </code>
         <subject>
           <reference value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
         </subject>
+        <authoredOn value="2015-07-08"/>
         <requester>
           <reference value="urn:uuid:035e3de4-011f-48a4-92c9-15b2bbcec321"/>
         </requester>
