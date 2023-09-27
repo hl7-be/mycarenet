@@ -266,6 +266,7 @@
           <coverage>
             <display value="use of mandatory insurance coverage, no further details provided here."/>
           </coverage>
+          <preAuthRef value="identifiant business de la décision (in treatment) reçue pour la demande de traitement"/>
         </insurance>
         <item>
           <sequence value="1"/>
