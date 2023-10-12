@@ -105,7 +105,7 @@
         <total value="2"/>
         <link>
           <relation value="self"/>
-          <url value="http://www.mycarenet.be/ClaimResponse?patient=a52efcb6-1f81-4333-a115-d45bd318368&amp;use=preauthorization&amp;subType.code:contains=physiotherapy&amp;preAuthRef=beslissingIdToConsult"/>
+          <url value="http://www.mycarenet.be/ClaimResponse?patient=a52efcb6-1f81-4333-a115-d45bd318368&amp;use=preauthorization&amp;subType:contains=physiotherapy&amp;preAuthRef=beslissingIdToConsult"/>
         </link>
         <entry>
           <fullUrl value="urn:uuid:cfabb40d-a53f-4c56-bc19-725ea669b358"/>
