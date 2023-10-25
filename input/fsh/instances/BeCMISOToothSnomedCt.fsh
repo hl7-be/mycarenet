@@ -8,9 +8,9 @@ Usage: #definition
 * description =  "ISO tooth numbers to SNOMED CT"
 * title = "BeCMISOToothSnomedCT"
 * status = #active
-* sourceCanonical = "http://terminology.hl7.org/ValueSet/tooth"
+* sourceUri = "https://www.iso.org/standard/68292.html"
 * targetCanonical = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/ValueSet/be-vs-toothnumber-bodysite"
-* group[+].source = "http://terminology.hl7.org/CodeSystem/ex-tooth"
+* group[+].source = "https://www.iso.org/standard/68292.html"
 * group[=].target = $sct
 * group[=].element[0].code = #11
 * group[=].element[=].display = "11"
