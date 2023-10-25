@@ -19,3 +19,6 @@ Description: "Agreement types for MyCareNet flows. Not all codes are defined her
 * #physiotherapy-palliative "physiotherapy-palliative"
 * #physiotherapy-day-hospitalization "physiotherapy-day-hospitalization"
 * #physiotherapy-consultative-review "physiotherapy-consultative-review"
+* #speechtherapy-assessment "speechtherapy-assessment"
+* #speechtherapy-treatment "speechtherapy-treatment"
+* #speechtherapy "speechtherapy"

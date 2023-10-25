@@ -25,7 +25,7 @@ Description: "Claim profile for use in the different eAgreement flow from MyCare
 * meta 1.. MS
 * meta.profile ^mustSupport = false
 * meta.profile 1..1
-* obeys be-rule-eagreementclaim-1 and be-rule-eagreementclaim-2
+* obeys be-rule-eagreementclaim-1 and be-rule-eagreementclaim-2 and be-rule-eagreementclaim-3
 * patient MS
 * patient only Reference(BePatient)
 * priority MS
@@ -80,4 +80,9 @@ Severity: #error
 Invariant: be-rule-eagreementclaim-2
 Description: "Created SHALL be YYYY-MM-DDThh:mm:ss+zz:zz"
 Expression: "Claim.created.toString().length()=25"
+Severity: #error
+
+Invariant: be-rule-eagreementclaim-3
+Description: "Procedure.date SHALL be YYYY-MM-DD"
+Expression: "Claim.procedure.date.exists() implies Claim.procedure.date.select(toString().length()=10).allTrue()"
 Severity: #error
