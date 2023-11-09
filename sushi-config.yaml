@@ -175,4 +175,7 @@ resources:
     description: FHIR Speechtherapy eAgreementExtentResponse for assessment with an intreatment response 
   Bundle/ex31: 
     name: ex31 
-    description: FHIR Speechtherapy eAgreementRejectResponse 
+    description: FHIR Speechtherapy eAgreementRejectResponse
+  Bundle/ex32:
+    name: ex32
+    description: FHIR Speechtherapy eAgreementAskResponse for treatment with a partial agreement response
