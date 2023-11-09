@@ -8,3 +8,4 @@ Description: "Codes for use to describe eAgreement adjudication reasons in the M
 * ^experimental = false
 * include codes from system MyCareNetRefusalValues
 * include codes from system MyCareNetWaitingForInformationValues
+* include codes from system BeCSPartialAgreementValues
