@@ -178,7 +178,7 @@
             <reason>
               <coding>
                 <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/be-cs-partial-agreement-values"/>
-                <code value="PARTIAL_AGREE_ALL_001"/>
+                <code value="PARTIAL_AGREE_SRV_LOGO_001"/>
               </coding>
               <text value="ajout de commentaires sur l'accord partiel"/>
             </reason>
