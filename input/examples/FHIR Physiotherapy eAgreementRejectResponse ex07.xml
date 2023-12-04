@@ -8,7 +8,7 @@
   <type value="message"/>
   <timestamp value="2015-07-14T11:15:37+02:00"/>
   <entry>
-    <fullUrl value="667b18ce-3d37-4581-9baa-6fada338038c"/>
+    <fullUrl value="urn:uuid:667b18ce-3d37-4581-9baa-6fada338038c"/>
     <resource>
       <MessageHeader>
         <id value="667b18ce-3d37-4581-9baa-6fada338038c"/>
