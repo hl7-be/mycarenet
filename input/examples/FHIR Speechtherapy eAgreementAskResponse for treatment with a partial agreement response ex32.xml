@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ex31"/>
+  <id value="ex32"/>
   <meta>
     <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementdemandreply"/>
   </meta>
@@ -17,7 +17,7 @@
         </meta>
         <eventCoding>
           <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/message-events"/>
-          <code value="reject"/>
+          <code value="claimresponse-decide"/>
         </eventCoding>
         <destination>
           <endpoint value="urn:be:fgov:person:ssin:ehealth:1.0:logopedist:nihii11:60567689801"/>
@@ -33,10 +33,10 @@
         </source>
         <response>
           <identifier value="267b18ce-3d37-4581-9baa-6fada338038b"/>
-          <code value="fatal-error"/>
+          <code value="ok"/>
         </response>
         <focus>
-          <reference value="urn:uuid:99613879-db9d-4bee-ad78-633cbf164800"/>
+          <reference value="urn:uuid:0a0d60df-0340-45a6-a493-a5d67f74d693"/>
         </focus>
       </MessageHeader>
     </resource>
@@ -97,25 +97,94 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="urn:uuid:99613879-db9d-4bee-ad78-633cbf164800"/>
+    <fullUrl value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
     <resource>
-      <OperationOutcome>
-        <id value="99613879-db9d-4bee-ad78-633cbf164800"/>
+      <Patient>
+        <id value="a52efcb6-1f81-4333-a115-d45bd3183686"/>
         <meta>
-          <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-operationoutcome"/>
+          <profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"/>
         </meta>
-        <issue>
-          <severity value="error"/>
-          <code value="structure"/>
-          <details>
+        <identifier>
+          <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancymembership"/>
+          <value value="n° inscription mutualiste"/>
+          <assigner>
+            <identifier>
+              <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancenumber"/>
+              <value value="n° mutualité"/>
+            </identifier>
+          </assigner>
+        </identifier>
+        <name>
+          <family value="Dupont"/>
+          <given value="Jean"/>
+        </name>
+        <gender value="male"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:0a0d60df-0340-45a6-a493-a5d67f74d693"/>
+    <resource>
+      <ClaimResponse>
+        <id value="0a0d60df-0340-45a6-a493-a5d67f74d693"/>
+        <meta>
+          <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementclaimresponse"/>
+        </meta>
+        <status value="active"/>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
+            <code value="professional"/>
+          </coding>
+        </type>
+        <subType>
+          <coding>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"/>
+            <code value="speechtherapy-treatment"/>
+          </coding>
+        </subType>
+        <use value="preauthorization"/>
+        <patient>
+          <reference value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
+        </patient>
+        <created value="2015-07-14T11:15:30+02:00"/>
+        <insurer>
+          <reference value="urn:uuid:cfabb40d-a53f-4c56-bc19-725ea669b358"/>
+        </insurer>
+        <requestor>
+          <reference value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
+        </requestor>
+        <outcome value="complete"/>
+        <preAuthRef value="identifiant business de la décision (accord/refus/en traitement)"/>
+        <preAuthPeriod>
+          <start value="2020-01-15"/>
+          <end value="2020-03-15"/>
+        </preAuthPeriod>
+        <addItem>
+          <itemSequence value="1"/>
+          <productOrService>
             <coding>
-              <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-errors"/>
-              <code value="MISSING_PRACTITIONERROLE_PRACTITIONER_REFERENCE"/>
+              <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-speech-therapy-pathology-situation-code"/>
+              <code value="d"/>
             </coding>
-          </details>
-          <expression value="Bundle.entry[2].resource.ofType(PractitionerRole).practitioner"/>
-        </issue>
-      </OperationOutcome>
+          </productOrService>
+          <adjudication>
+            <category>
+              <coding>
+                <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/decision-values"/>
+                <code value="partialAgreement"/>
+              </coding>
+            </category>
+            <reason>
+              <coding>
+                <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/be-cs-partial-agreement-values"/>
+                <code value="PARTIAL_AGREE_SRV_LOGO_001"/>
+              </coding>
+              <text value="ajout de commentaires sur l'accord partiel"/>
+            </reason>
+          </adjudication>
+        </addItem>
+      </ClaimResponse>
     </resource>
   </entry>
 </Bundle>
