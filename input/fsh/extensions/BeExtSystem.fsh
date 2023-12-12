@@ -1,7 +1,7 @@
 Extension: BeExtSystem
 Id: be-ext-system
-Title: "BeExtItemReimbursement"
-Description: "Reimbursement for the patient per item"
+Title: "BeExtSystem"
+Description: "System indicating the type of the value"
 * value[x] 1..1 MS
 * value[x] only uri
 * ^context[+].type = #element
