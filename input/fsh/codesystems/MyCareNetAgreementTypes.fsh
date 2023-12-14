@@ -5,7 +5,7 @@ Description: "Agreement types for MyCareNet flows. Not all codes are defined her
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"
 * ^version = "1.0.0"
 * ^status = #active
-* ^content = #fragment
+* ^content = #example
 * ^experimental = false
 * ^caseSensitive = true
 * #physiotherapy-fa "physiotherapy-fa"

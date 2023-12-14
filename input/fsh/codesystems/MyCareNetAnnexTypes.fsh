@@ -5,7 +5,7 @@ Description: "Annex types for MyCareNet flows. Not all codes are defined here, a
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/annex-types"
 * ^version = "1.0.0"
 * ^status = #active
-* ^content = #fragment
+* ^content = #example
 * ^experimental = false
 * ^caseSensitive = true
 * #functional-report "functional-report"

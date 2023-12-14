@@ -6,7 +6,7 @@ NIC(Nationaal Intermutualistisch College)/CIN(Collège Intermutualiste National.
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/decision-values"
 * ^version = "1.0.0"
 * ^status = #active
-* ^content = #fragment
+* ^content = #example
 * ^experimental = false
 * ^caseSensitive = true
 * #agreement "agreement"

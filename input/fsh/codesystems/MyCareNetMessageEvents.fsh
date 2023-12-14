@@ -5,7 +5,7 @@ Description: "Message events for MyCareNet flows.Not all codes are defined here,
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/message-events"
 * ^version = "1.0.0"
 * ^status = #active
-* ^content = #fragment
+* ^content = #example
 * ^experimental = false
 * ^caseSensitive = true
 * #claim-ask "claim-ask"

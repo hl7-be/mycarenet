@@ -5,7 +5,7 @@ Description: "Legal pathology situation codes as defined by NIHDI to be used in 
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-physiotherapy-pathologysituationcode"
 * ^version = "1.0.0"
 * ^status = #active
-* ^content = #fragment
+* ^content = #example
 * ^experimental = false
 * ^caseSensitive = true
 * #fa-1 "fa-1"

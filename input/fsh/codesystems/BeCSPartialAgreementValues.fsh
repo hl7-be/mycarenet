@@ -5,5 +5,5 @@ Description: """Partial agreement values"""
 * ^status = #active
 * ^experimental = false
 * ^caseSensitive = true
-* ^content = #fragment
+* ^content = #example
 * #PARTIAL_AGREE_SRV_LOGO_001
