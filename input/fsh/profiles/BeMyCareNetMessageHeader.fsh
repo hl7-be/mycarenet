@@ -25,6 +25,6 @@ Description: "This is the generic MessageHeader profile for use in the different
 * reason ..0
 * response MS
 * focus 1..1 MS
-* focus.reference 1..
-* focus.reference ^mustSupport = false
+* focus.reference 
+* focus.identifier
 * definition ..0
