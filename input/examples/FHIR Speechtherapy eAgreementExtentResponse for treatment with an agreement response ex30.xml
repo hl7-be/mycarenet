@@ -140,7 +140,7 @@
         <subType>
           <coding>
             <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"/>
-            <code value="speechtherapy-assessment"/>
+            <code value="speechtherapy-treatment"/>
           </coding>
         </subType>
         <use value="preauthorization"/>
@@ -154,8 +154,12 @@
         <requestor>
           <reference value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
         </requestor>
-        <outcome value="partial"/>
+        <outcome value="complete"/>
         <preAuthRef value="identifiant business de la décision (accord/refus/en traitement)"/>
+        <preAuthPeriod>
+          <start value="2020-01-15"/>
+          <end value="2020-03-15"/>
+        </preAuthPeriod>
         <addItem>
           <itemSequence value="1"/>
           <productOrService>
@@ -168,7 +172,7 @@
             <category>
               <coding>
                 <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/decision-values"/>
-                <code value="intreatment"/>
+                <code value="agreement"/>
               </coding>
             </category>
           </adjudication>

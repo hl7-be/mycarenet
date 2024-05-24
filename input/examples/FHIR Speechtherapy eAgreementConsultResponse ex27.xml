@@ -102,7 +102,7 @@
       <Bundle>
         <id value="03972cc4-d781-4285-8d79-0f05810e1939"/>
         <type value="searchset"/>
-        <total value="1"/>
+        <total value="2"/>
         <link>
           <relation value="self"/>
           <url value="http://www.mycarenet.be/ClaimResponse?patient=a52efcb6-1f81-4333-a115-d45bd318368&amp;use=preauthorization&amp;subType:contains=physiotherapy&amp;preAuthRef=beslissingIdToConsult"/>

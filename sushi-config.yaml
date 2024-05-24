@@ -164,15 +164,15 @@ resources:
   Bundle/ex27: 
     name: ex27 
     description: FHIR Speechtherapy eAgreementConsultResponse 
-  Bundle/ex28: 
-    name: ex28 
-    description: FHIR Speechtherapy eAgreementExtentRequest for assessment 
+  #Bundle/ex28: 
+  #  name: ex28 
+  #  description: FHIR Speechtherapy eAgreementExtentRequest for assessment 
   Bundle/ex29: 
     name: ex29 
     description: FHIR Speechtherapy eAgreementExtentRequest for treatment 
   Bundle/ex30: 
     name: ex30 
-    description: FHIR Speechtherapy eAgreementExtentResponse for assessment with an intreatment response 
+    description: FHIR Speechtherapy eAgreementExtentResponse for treatment with an agreement response 
   Bundle/ex31: 
     name: ex31 
     description: FHIR Speechtherapy eAgreementRejectResponse
