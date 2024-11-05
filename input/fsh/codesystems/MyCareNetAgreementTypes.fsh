@@ -22,3 +22,4 @@ Description: "Agreement types for MyCareNet flows. Not all codes are defined her
 * #speechtherapy-assessment "speechtherapy-assessment"
 * #speechtherapy-treatment "speechtherapy-treatment"
 * #speechtherapy "speechtherapy"
+* #rehabilitation-convention "rehabilitation-convention"
