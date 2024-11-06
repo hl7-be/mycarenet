@@ -127,7 +127,7 @@
 			<Claim>
 				<id value="e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"/>
 				<meta>
-					<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementclaim-light"/>
+					<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementclaim"/>
 				</meta>
 				<status value="active"/>
 				<type>
