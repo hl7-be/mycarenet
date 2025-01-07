@@ -133,7 +133,7 @@
 				<type>
 					<coding>
 						<system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
-						<code value="professional"/>
+						<code value="institutional"/>
 					</coding>
 				</type>
 				<subType>
@@ -172,13 +172,12 @@
 					<code>
 						<coding>
 							<system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/annex-types"/>
-							<code value="776.101"/>
+							<code value="776100"/>
 						</coding>
 					</code>
 					<valueAttachment>
 						<contentType value="application/pdf"/>
 						<data value="QW5uZXhlIGlubGluZSwgYmFzZTY0ZWQ="/>
-						<title value="nom/description de l'annexe"/>
 					</valueAttachment>
 				</supportingInfo>
 				<insurance>

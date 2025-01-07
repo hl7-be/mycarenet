@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 2024-10-22 11:28 PSI-->
 <Bundle xmlns="http://hl7.org/fhir">
-	<id value="ex35"/>
+	<id value="ex34"/>
 	<meta>
 		<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementdemandreply"/>
 	</meta>

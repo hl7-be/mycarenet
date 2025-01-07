@@ -184,14 +184,5 @@ resources:
     description: FHIR Light eAgreement Ask Request
   Bundle/ex34:
     name: ex34
-    description: FHIR Light eAgreement Ask Response with an OK response
-  Bundle/ex35:
-    name: ex35
     description: FHIR Light eAgreement Reject Response
-  Bundle/ex36:
-    name: ex36
-    description: FHIR Light eAgreement Cancel Request
-  Bundle/ex37:
-    name: ex37
-    description: FHIR Light eAgreement Cancel Response
   
