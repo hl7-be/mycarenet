@@ -64,7 +64,7 @@ Description: "Claim profile for use in the different eAgreement flow from MyCare
 * type.coding ^mustSupport = false
 * type.coding 1..1
 * type.coding.code ^mustSupport = false
-* type.coding.code = #professional (exactly)
+//* type.coding.code = #professional (exactly)
 * type.coding.code 1..
 * type.coding.system ^mustSupport = false
 * type.coding.system = "http://terminology.hl7.org/CodeSystem/claim-type" (exactly)
