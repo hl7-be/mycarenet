@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2024-10-22 11:28 PSI-->
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="ex34"/>
+	<meta>
+		<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementdemandreply"/>
+	</meta>
+	<type value="message"/>
+	<timestamp value="2024-05-09T11:15:37+02:00"/>
+	<entry>
+		<fullUrl value="urn:uuid:667b18ce-3d37-4581-9baa-6fada338038c"/>
+		<resource>
+			<MessageHeader>
+				<id value="667b18ce-3d37-4581-9baa-6fada338038c"/>
+				<meta>
+					<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-messageheader"/>
+				</meta>
+				<eventCoding>
+					<system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/message-events"/>
+					<code value="reject"/>
+				</eventCoding>
+				<destination>
+					<endpoint value="urn:be:fgov:ehealth:1.0:hospital:nihii-number:71000436000"/>
+					<receiver>
+						<reference value="urn:uuid:e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"/>
+					</receiver>
+				</destination>
+				<sender>
+					<reference value="urn:uuid:cfabb40d-a53f-4c56-bc19-725ea669b358"/>
+				</sender>
+				<source>
+					<endpoint value="urn:be:fgov:kbo-bce:organization:cbe-number:0411724220"/>
+				</source>
+				<response>
+					<identifier value="267b18ce-3d37-4581-9baa-6fada338038b"/>
+					<code value="fatal-error"/>
+				</response>
+				<focus>
+					<reference value="urn:uuid:99613879-db9d-4bee-ad78-633cbf164800"/>
+				</focus>
+			</MessageHeader>
+		</resource>
+	</entry>
+	<!--be-organization - hospital-->
+	<entry>
+		<fullUrl value="urn:uuid:e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"/>
+		<resource>
+			<Organization>
+				<id value="e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"/>
+				<meta>
+					<profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization"/>
+				</meta>
+				<identifier>
+					<system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"/>
+					<value value="71000436000"/>
+				</identifier>
+				<type>
+					<coding>
+						<system value="https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"/>
+						<code value="orghospital"/>
+					</coding>
+				</type>
+			</Organization>
+		</resource>
+	</entry>
+	<!-- be-organization-->
+	<entry>
+		<fullUrl value="urn:uuid:cfabb40d-a53f-4c56-bc19-725ea669b358"/>
+		<resource>
+			<Organization>
+				<id value="cfabb40d-a53f-4c56-bc19-725ea669b358"/>
+				<meta>
+					<profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization"/>
+				</meta>
+				<identifier>
+					<system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancenumber"/>
+					<value value="300"/>
+				</identifier>
+				<name value="Union Nationale des Mutualités Socialistes - Nationaal Verbond van de Socialistische Mutualiteiten"/>
+			</Organization>
+		</resource>
+	</entry>
+	<!-- OperationOutcome -->
+	<entry>
+		<fullUrl value="urn:uuid:99613879-db9d-4bee-ad78-633cbf164800"/>
+		<resource>
+			<OperationOutcome>
+				<id value="99613879-db9d-4bee-ad78-633cbf164800"/>
+				<meta>
+					<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-operationoutcome"/>
+				</meta>
+				<issue>
+					<severity value="error"/>
+					<code value="structure"/>
+					<details>
+						<coding>
+							<system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-errors"/>
+							<code value="MISSING_PRACTITIONERROLE_PRACTITIONER_REFERENCE"/>
+						</coding>
+					</details>
+					<expression value="Bundle.entry[2].resource.ofType(PractitionerRole).practitioner"/>
+				</issue>
+			</OperationOutcome>
+		</resource>
+	</entry>
+</Bundle>

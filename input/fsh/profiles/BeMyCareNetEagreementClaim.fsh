@@ -30,7 +30,7 @@ Description: "Claim profile for use in the different eAgreement flow from MyCare
 * patient only Reference(BePatient)
 * priority MS
 * priority.coding 1..1
-* priority.coding.code = #stat (exactly)
+//* priority.coding.code = #stat (exactly)
 * priority.coding.code 1..
 * priority.coding.system = "http://terminology.hl7.org/CodeSystem/processpriority" (exactly)
 * priority.coding.system 1..
@@ -64,7 +64,7 @@ Description: "Claim profile for use in the different eAgreement flow from MyCare
 * type.coding ^mustSupport = false
 * type.coding 1..1
 * type.coding.code ^mustSupport = false
-* type.coding.code = #professional (exactly)
+//* type.coding.code = #professional (exactly)
 * type.coding.code 1..
 * type.coding.system ^mustSupport = false
 * type.coding.system = "http://terminology.hl7.org/CodeSystem/claim-type" (exactly)

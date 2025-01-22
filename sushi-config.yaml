@@ -179,3 +179,10 @@ resources:
   Bundle/ex32:
     name: ex32
     description: FHIR Speechtherapy eAgreementAskResponse for treatment with a partial agreement response
+  Bundle/ex33:
+    name: ex33
+    description: FHIR Light eAgreement Ask Request
+  Bundle/ex34:
+    name: ex34
+    description: FHIR Light eAgreement Reject Response
+  
