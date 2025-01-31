@@ -7,8 +7,13 @@ NIC(Nationaal Intermutualistisch College)/CIN(Collège Intermutualiste National.
 * ^version = "1.0.0"
 * ^status = #active
 * ^content = #fragment
+* ^experimental = false
+* ^caseSensitive = true
 * #agreement "agreement"
 * #intreatment "intreatment"
 * #refusal "refusal"
 * #wfi-physiotherapist "wfi-physiotherapist"
 * #wfi-prescriptor "wfi-prescriptor"
+* #tariff "tariff"
+* #wfi-serviceprovider "wfi-serviceprovider"
+* #partialAgreement "partialAgreement"

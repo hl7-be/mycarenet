@@ -38,6 +38,7 @@ Description: "The profile for the reply on a demand for an agreement in the MyCa
 * entry[operationOutcome].fullUrl 1..
 * entry[operationOutcome].resource 1..
 * entry[operationOutcome].resource only BeMyCareNetOperationOutcome
+* entry[operationOutcome].resource.issue.details.coding from BeVSEagreementErrors (extensible)
 * entry[organization].fullUrl 1..
 * entry[organization].resource 1..
 * entry[organization].resource only BeOrganization

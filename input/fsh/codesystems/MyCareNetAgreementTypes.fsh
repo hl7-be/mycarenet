@@ -6,6 +6,8 @@ Description: "Agreement types for MyCareNet flows. Not all codes are defined her
 * ^version = "1.0.0"
 * ^status = #active
 * ^content = #fragment
+* ^experimental = false
+* ^caseSensitive = true
 * #physiotherapy-fa "physiotherapy-fa"
 * #physiotherapy-fb "physiotherapy-fb"
 * #physiotherapy-eb "physiotherapy-eb"
@@ -17,3 +19,10 @@ Description: "Agreement types for MyCareNet flows. Not all codes are defined her
 * #physiotherapy-palliative "physiotherapy-palliative"
 * #physiotherapy-day-hospitalization "physiotherapy-day-hospitalization"
 * #physiotherapy-consultative-review "physiotherapy-consultative-review"
+* #speechtherapy-assessment "speechtherapy-assessment"
+* #speechtherapy-treatment "speechtherapy-treatment"
+* #speechtherapy "speechtherapy"
+* #rehabilitation-convention "rehabilitation-convention"
+* #stay-orgretirementhome "stay-orgretirementhome"
+* #stay-orgpsychiatriccarehome "stay-orgpsychiatriccarehome"
+* #stay-orgshelteredliving "stay-orgshelteredliving"

@@ -10,4 +10,5 @@
 <p><a href="https://www.hl7.org/fhir/validation.html#jar" target="_blank">Follow this link for the full description on the usage of this validator</a></p>
 <p>As example: This is the command line to validate FHIR resources located in the folder "c:\temp\MCNExamples" and the output HTML file will be available in "c:\temp\validation.html". </p>
 <p>Note: As no version is indicated, the validation will be done with the latest published MyCareNet Package.</p>
+
 <p><code>java -jar validator_cli.jar [examples] -ig hl7.fhir.be.mycarenet -html-output c:\temp\validation.html</code></p>
