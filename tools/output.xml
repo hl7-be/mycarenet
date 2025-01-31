@@ -1,0 +1,133 @@
+http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/related-tl|0.1.0-test
+
+* ^context.type = "#element"
+* ^context.expression = "MedicationAdministration or MedicationDispense or MedicationRequest or MedicationStatement"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/allergy/StructureDefinition/be-ext-allergy-type|1.0.1
+
+* ^context.type = "#element"
+* ^context.expression = "AllergyIntolerance"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-ext-laterality|1.0.1
+
+* ^context.type = "#element"
+* ^context.expression = "Claim.item.bodySite or Condition.bodySite or Immunization.site or Observation.bodySite or ServiceRequest.bodySite"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-ext-problem-origin-type|1.0.1
+
+* ^context.type = "#element"
+* ^context.expression = "Condition"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-recorder|2.1.0
+
+* ^context.type = "#element"
+* ^context.expression = "Immunization or ServiceRequest"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/lab/StructureDefinition/be-ext-note|1.0.1
+
+* ^context.type = "#element"
+* ^context.expression = "DiagnosticReport"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/public-health/StructureDefinition/BePopulationScreeningEpisodeOfCare|0.0.1
+
+* ^context.type = "#element"
+* ^context.expression = "Appointment or Encounter or Observation or ServiceRequest"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/public-health/StructureDefinition/PopulationScreeningNextInvitation|0.0.1
+
+* ^context.type = "#element"
+* ^context.expression = "EpisodeOfCare"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-co-prescriber-info|1.0.0
+
+* ^context.type = "#element"
+* ^context.expression = "ServiceRequest"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-feedback-to-prescriber|1.0.0
+
+* ^context.type = "#element"
+* ^context.expression = "ServiceRequest"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-latest-draft-date|1.0.0
+
+* ^context.type = "#element"
+* ^context.expression = "ServiceRequest"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-latest-end-date|1.0.0
+
+* ^context.type = "#element"
+* ^context.expression = "ServiceRequest"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-proposal-type|1.0.0
+
+* ^context.type = "#element"
+* ^context.expression = "ServiceRequest"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-pss-info|1.0.0
+
+* ^context.type = "#element"
+* ^context.expression = "ServiceRequest"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-validity-period|1.0.0
+
+* ^context.type = "#element"
+* ^context.expression = "ServiceRequest"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/vaccination/StructureDefinition/be-ext-administeredProduct|1.0.2
+
+* ^context.type = "#element"
+* ^context.expression = "Immunization"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/vaccination/StructureDefinition/be-ext-simple-note|1.0.2
+
+* ^context.type = "#element"
+* ^context.expression = "Immunization"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/vaccination/StructureDefinition/be-ext-vaccination-confirmationStatus|1.0.2
+
+* ^context.type = "#element"
+* ^context.expression = "Immunization"
+
+
+
+https://www.ehealth.fgov.be/standards/fhir/vaccination/StructureDefinition/be-ext-vaccination-originalorder|1.0.2
+
+* ^context.type = "#element"
+* ^context.expression = "Immunization"
+
+
+

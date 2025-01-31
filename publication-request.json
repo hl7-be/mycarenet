@@ -1,0 +1,16 @@
+{
+    "package-id": "hl7.fhir.be.mycarenet",
+    "version": "2.0.0",
+    "path": "https://www.ehealth.fgov.be/standards/fhir/mycarenet/2.0.0",
+    "milestone" : true,
+    "status": "release",
+    "sequence": "Trial Use",
+    "desc": "eHealth FHIR MyCareNet Profiles for Belgium",
+    "desccmd": "eHealth FHIR MyCareNet Profiles for Belgium",
+    "title": "eHealth FHIR MyCareNet Profiles for Belgium",
+    "ci-build" : "https://build.fhir.org/ig/hl7-be/mycarenet",
+    "category": "National Base",
+    "introduction": "eHealth FHIR MyCareNet Profiles for Belgium",
+	"date": "2022-09-09",
+  "mode": "milestone"   
+  }
