@@ -18,7 +18,7 @@ date: 2025-02-17
 dependencies:
   hl7.fhir.be.core: 2.1.2
   hl7.fhir.be.core-clinical: 1.0.0
-  hl7.fhir.be.nihdi-terminology: current$releasecandidate
+  hl7.fhir.be.nihdi-terminology: 1.0.0
   
 
 # The pages property corresponds to IG.definition.page. SUSHI can
