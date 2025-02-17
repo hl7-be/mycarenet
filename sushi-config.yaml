@@ -10,6 +10,7 @@ version: 2.1.0
 copyrightYear: 2022+
 releaseLabel: STU
 jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
+date: 2025-02-17
 # The publisher can be a single item or a list, each with a name and
 # optional url and/or email. The first publisher's name will be used
 # as IG.publisher.  The contact details and/or additional publishers
@@ -92,7 +93,16 @@ parameters:
   apply-contact: 'true'
   apply-jurisdiction: 'true'
   apply-publisher: 'true'
-  apply-version: 'true'  
+  apply-version: 'true'
+  propagate-status: true  
+
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: trial-use
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: fhir
+  - url:  http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 1
 
 
 resources:
