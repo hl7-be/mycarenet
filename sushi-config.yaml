@@ -5,23 +5,20 @@ applyExtensionMetadataToRoot: false
 id: hl7.fhir.be.mycarenet
 name: Belgian MyCareNet Profiles
 title: Belgian MyCareNet Profiles
-status: draft
+status: active
 version: 2.1.0
 copyrightYear: 2022+
 releaseLabel: STU
 jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
+date: 2025-02-17
 # The publisher can be a single item or a list, each with a name and
 # optional url and/or email. The first publisher's name will be used
 # as IG.publisher.  The contact details and/or additional publishers
 # will be translated into IG.contact values.
-publisher:
-  name: eHealth Platform
-  url: http://www.ehealth.fgov.be/
-  email: support@be-ehealth-standards.atlassian.net
 dependencies:
-  hl7.fhir.be.core: current
-  hl7.fhir.be.core-clinical: current
-  hl7.fhir.be.nihdi-terminology: current
+  hl7.fhir.be.core: 2.1.2
+  hl7.fhir.be.core-clinical: 1.0.0
+  hl7.fhir.be.nihdi-terminology: 1.0.0
   
 
 # The pages property corresponds to IG.definition.page. SUSHI can
@@ -96,7 +93,16 @@ parameters:
   apply-contact: 'true'
   apply-jurisdiction: 'true'
   apply-publisher: 'true'
-  apply-version: 'true'  
+  apply-version: 'true'
+  propagate-status: true  
+
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: trial-use
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: fhir
+  - url:  http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 1
 
 
 resources:
