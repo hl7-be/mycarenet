@@ -1,193 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 2024-10-22 11:28 PSI-->
 <Bundle xmlns="http://hl7.org/fhir">
-	<id value="ex33"/>
-	<meta>
-		<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementdemand"/>
-	</meta>
-	<type value="message"/>
-	<timestamp value="2024-05-08T11:15:33+02:00"/>
-	<entry>
-		<fullUrl value="urn:uuid:267b18ce-3d37-4581-9baa-6fada338038b"/>
-		<resource>
-			<MessageHeader>
-				<id value="267b18ce-3d37-4581-9baa-6fada338038b"/>
-				<meta>
-					<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-messageheader"/>
-				</meta>
-				<eventCoding>
-					<system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/message-events"/>
-					<code value="claim-ask"/>
-				</eventCoding>
-				<destination>
-					<name value="MyCareNet"/>
-					<endpoint value="urn:be:fgov:kbo-bce:organization:cbe-number:0820563481"/>
-				</destination>
-				<sender>
-					<reference value="urn:uuid:e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"/>
-				</sender>
-				<source>
-					<endpoint value="urn:be:fgov:ehealth:1.0:hospital:nihii-number:71000436000"/>
-				</source>
-				<focus>
-					<reference value="urn:uuid:e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"/>
-				</focus>
-			</MessageHeader>
-		</resource>
-	</entry>
-	<!--practitionerrole-->
-	<entry>
-		<fullUrl value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
-		<resource>
-			<PractitionerRole>
-				<id value="1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
-				<meta>
-					<profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole"/>
-				</meta>
-				<practitioner>
-					<reference value="urn:uuid:8fc72085-d349-4bd7-ba84-91a935a4e3c6"/>
-				</practitioner>
-				<code>
-					<coding>
-						<system value="https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"/>
-						<code value="persphysician"/>
-					</coding>
-				</code>
-			</PractitionerRole>
-		</resource>
-	</entry>
-	<!--practitioner -->
-	<entry>
-		<fullUrl value="urn:uuid:8fc72085-d349-4bd7-ba84-91a935a4e3c6"/>
-		<resource>
-			<Practitioner>
-				<id value="8fc72085-d349-4bd7-ba84-91a935a4e3c6"/>
-				<meta>
-					<profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner"/>
-				</meta>
-				<identifier>
-					<system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"/>
-					<value value="19234011004"/>
-				</identifier>
-				<name>
-					<family value="Smith"/>
-					<given value="John"/>
-				</name>
-			</Practitioner>
-		</resource>
-	</entry>
-	<!--<Organization>-->
-	<entry>
-		<fullUrl value="urn:uuid:e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"/>
-		<resource>
-			<Organization>
-				<id value="e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"/>
-				<meta>
-					<profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization"/>
-				</meta>
-				<identifier>
-					<system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"/>
-					<value value="71000436000"/>
-				</identifier>
-				<type>
-					<coding>
-						<system value="https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"/>
-						<code value="orghospital"/>
-					</coding>
-				</type>
-			</Organization>
-		</resource>
-	</entry>
-	<!-- patient -->
-	<entry>
-		<fullUrl value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
-		<resource>
-			<Patient>
-				<id value="a52efcb6-1f81-4333-a115-d45bd3183686"/>
-				<meta>
-					<profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"/>
-				</meta>
-				<identifier>
-					<system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"/>
-					<value value="79121137740"/>
-				</identifier>
-				<name>
-					<family value="Dupont"/>
-					<given value="Jean"/>
-				</name>
-				<gender value="male"/>
-			</Patient>
-		</resource>
-	</entry>
-	<!-- end of common -->
-	<entry>
-		<!--Claim-->
-		<fullUrl value="urn:uuid:e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"/>
-		<resource>
-			<Claim>
-				<id value="e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"/>
-				<meta>
-					<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementclaim"/>
-				</meta>
-				<status value="active"/>
-				<type>
-					<coding>
-						<system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
-						<code value="institutional"/>
-					</coding>
-				</type>
-				<subType>
-					<coding>
-						<system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"/>
-						<!-- list has to be extended-->
-						<code value="rehabilitation-convention"/>
-					</coding>
-				</subType>
-				<use value="preauthorization"/>
-				<!--where the provision of goods and services is proposed and authorization and/or the reservation of funds is desired.-->
-				<patient>
-					<reference value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
-				</patient>
-				<created value="2024-05-08T11:15:30+02:00"/>
-				<enterer>
-					<reference value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
-				</enterer>
-				<provider>
-					<reference value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
-				</provider>
-				<priority>
-					<coding>
-						<system value="http://terminology.hl7.org/CodeSystem/processpriority"/>
-						<code value="normal"/>
-					</coding>
-				</priority>
-				<supportingInfo>
-					<sequence value="1"/>
-					<category>
-						<coding>
-							<system value="http://terminology.hl7.org/CodeSystem/claiminformationcategory"/>
-							<code value="attachment"/>
-						</coding>
-					</category>
-					<code>
-						<coding>
-							<system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/annex-types"/>
-							<code value="776100"/>
-						</coding>
-					</code>
-					<valueAttachment>
-						<contentType value="application/pdf"/>
-						<data value="QW5uZXhlIGlubGluZSwgYmFzZTY0ZWQ="/>
-					</valueAttachment>
-				</supportingInfo>
-				<insurance>
-					<sequence value="1"/>
-					<focal value="true"/>
-					<coverage>
-						<display value="use of mandatory insurance coverage, no further details provided here."/>
-					</coverage>
-				</insurance>
-			</Claim>
-		</resource>
-	</entry>
+  <id value="ex33"/>
+  <meta>
+    <profile
+             value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementdemand"/>
+  </meta>
+  <type value="message"/>
+  <timestamp value="2024-05-08T11:15:33+02:00"/>
+  <entry>
+    <fullUrl value="urn:uuid:267b18ce-3d37-4581-9baa-6fada338038b"/>
+    <resource>
+      <MessageHeader>
+        <id value="267b18ce-3d37-4581-9baa-6fada338038b"/>
+        <meta>
+          <profile
+                   value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-messageheader"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml"><a name="MessageHeader_267b18ce-3d37-4581-9baa-6fada338038b"> </a><p class="res-header-id"><b>Generated Narrative: MessageHeader 267b18ce-3d37-4581-9baa-6fada338038b</b></p><a name="267b18ce-3d37-4581-9baa-6fada338038b"> </a><a name="hc267b18ce-3d37-4581-9baa-6fada338038b"> </a><a name="267b18ce-3d37-4581-9baa-6fada338038b-en-US"> </a><p><b>event</b>: <a href="CodeSystem-message-events.html#message-events-claim-ask">CodeSystem message events claim-ask</a>: claim-ask</p><h3>Destinations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td style="display: none">*</td><td>MyCareNet</td><td>urn:be:fgov:kbo-bce:organization:cbe-number:0820563481</td></tr></table><p><b>sender</b>: <a href="Bundle-ex33.html#urn-uuid-e2c6f73a-74d8-40f2-af0b-a61ad20c53d4">Bundle: type = message; timestamp = 2024-05-08 11:15:33+0200</a></p><h3>Sources</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Endpoint</b></td></tr><tr><td style="display: none">*</td><td>urn:be:fgov:ehealth:1.0:hospital:nihii-number:71000436000</td></tr></table><p><b>focus</b>: <a href="Bundle-ex33.html#urn-uuid-e85173bc-6f0d-480b-a2cd-2b70d9ffff7a">Bundle: type = message; timestamp = 2024-05-08 11:15:33+0200</a></p></div>
+        </text>
+        <eventCoding>
+          <system
+                  value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/message-events"/>
+          <code value="claim-ask"/>
+        </eventCoding>
+        <destination>
+          <name value="MyCareNet"/>
+          <endpoint
+                    value="urn:be:fgov:kbo-bce:organization:cbe-number:0820563481"/>
+        </destination>
+        <sender>
+          <reference value="urn:uuid:e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"/>
+        </sender>
+        <source>
+          <endpoint
+                    value="urn:be:fgov:ehealth:1.0:hospital:nihii-number:71000436000"/>
+        </source>
+        <focus>
+          <reference value="urn:uuid:e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"/>
+        </focus>
+      </MessageHeader>
+    </resource>
+  </entry>
+  <!-- practitionerrole -->
+  <entry>
+    <fullUrl value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
+    <resource>
+      <PractitionerRole>
+        <id value="1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
+        <meta>
+          <profile
+                   value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml"><a name="PractitionerRole_1dc5d974-5447-4afe-a4ab-57081ca518c3"> </a><p class="res-header-id"><b>Generated Narrative: PractitionerRole 1dc5d974-5447-4afe-a4ab-57081ca518c3</b></p><a name="1dc5d974-5447-4afe-a4ab-57081ca518c3"> </a><a name="hc1dc5d974-5447-4afe-a4ab-57081ca518c3"> </a><a name="1dc5d974-5447-4afe-a4ab-57081ca518c3-en-US"> </a><p><b>practitioner</b>: <a href="Bundle-ex33.html#urn-uuid-8fc72085-d349-4bd7-ba84-91a935a4e3c6">Bundle: type = message; timestamp = 2024-05-08 11:15:33+0200</a></p><p><b>code</b>: <span title="Codes:{https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty persphysician}">physician</span></p></div>
+        </text>
+        <practitioner>
+          <reference value="urn:uuid:8fc72085-d349-4bd7-ba84-91a935a4e3c6"/>
+        </practitioner>
+        <code>
+          <coding>
+            <system
+                    value="https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"/>
+            <code value="persphysician"/>
+          </coding>
+        </code>
+      </PractitionerRole>
+    </resource>
+  </entry>
+  <!-- practitioner  -->
+  <entry>
+    <fullUrl value="urn:uuid:8fc72085-d349-4bd7-ba84-91a935a4e3c6"/>
+    <resource>
+      <Practitioner>
+        <id value="8fc72085-d349-4bd7-ba84-91a935a4e3c6"/>
+        <meta>
+          <profile
+                   value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml"><a name="Practitioner_8fc72085-d349-4bd7-ba84-91a935a4e3c6"> </a><p class="res-header-id"><b>Generated Narrative: Practitioner 8fc72085-d349-4bd7-ba84-91a935a4e3c6</b></p><a name="8fc72085-d349-4bd7-ba84-91a935a4e3c6"> </a><a name="hc8fc72085-d349-4bd7-ba84-91a935a4e3c6"> </a><a name="8fc72085-d349-4bd7-ba84-91a935a4e3c6-en-US"> </a><p><b>identifier</b>: BeNIHDINamingSystem/19234011004</p><p><b>name</b>: John Smith </p></div>
+        </text>
+        <identifier>
+          <system
+                  value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"/>
+          <value value="19234011004"/>
+        </identifier>
+        <name>
+          <family value="Smith"/>
+          <given value="John"/>
+        </name>
+      </Practitioner>
+    </resource>
+  </entry>
+  <!-- <Organization> -->
+  <entry>
+    <fullUrl value="urn:uuid:e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"/>
+    <resource>
+      <Organization>
+        <id value="e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"/>
+        <meta>
+          <profile
+                   value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml"><a name="Organization_e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"> </a><p class="res-header-id"><b>Generated Narrative: Organization e2c6f73a-74d8-40f2-af0b-a61ad20c53d4</b></p><a name="e2c6f73a-74d8-40f2-af0b-a61ad20c53d4"> </a><a name="hce2c6f73a-74d8-40f2-af0b-a61ad20c53d4"> </a><a name="e2c6f73a-74d8-40f2-af0b-a61ad20c53d4-en-US"> </a><p><b>identifier</b>: BeNIHDINamingSystem/71000436000</p><p><b>type</b>: <span title="Codes:{https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty orghospital}">hospital</span></p></div>
+        </text>
+        <identifier>
+          <system
+                  value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"/>
+          <value value="71000436000"/>
+        </identifier>
+        <type>
+          <coding>
+            <system
+                    value="https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"/>
+            <code value="orghospital"/>
+          </coding>
+        </type>
+      </Organization>
+    </resource>
+  </entry>
+  <!--  patient  -->
+  <entry>
+    <fullUrl value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
+    <resource>
+      <Patient>
+        <id value="a52efcb6-1f81-4333-a115-d45bd3183686"/>
+        <meta>
+          <profile
+                   value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_a52efcb6-1f81-4333-a115-d45bd3183686"> </a><p class="res-header-id"><b>Generated Narrative: Patient a52efcb6-1f81-4333-a115-d45bd3183686</b></p><a name="a52efcb6-1f81-4333-a115-d45bd3183686"> </a><a name="hca52efcb6-1f81-4333-a115-d45bd3183686"> </a><a name="a52efcb6-1f81-4333-a115-d45bd3183686-en-US"> </a><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Jean Dupont  Male, DoB Unknown ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#79121137740)</p><hr/></div>
+        </text>
+        <identifier>
+          <system
+                  value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"/>
+          <value value="79121137740"/>
+        </identifier>
+        <name>
+          <family value="Dupont"/>
+          <given value="Jean"/>
+        </name>
+        <gender value="male"/>
+      </Patient>
+    </resource>
+  </entry>
+  <!--  end of common  -->
+  <entry>
+    <!-- Claim -->
+    <fullUrl value="urn:uuid:e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"/>
+    <resource>
+      <Claim>
+        <id value="e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"/>
+        <meta>
+          <profile
+                   value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-eagreementclaim"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml"><a name="Claim_e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"> </a><p class="res-header-id"><b>Generated Narrative: Claim e85173bc-6f0d-480b-a2cd-2b70d9ffff7a</b></p><a name="e85173bc-6f0d-480b-a2cd-2b70d9ffff7a"> </a><a name="hce85173bc-6f0d-480b-a2cd-2b70d9ffff7a"> </a><a name="e85173bc-6f0d-480b-a2cd-2b70d9ffff7a-en-US"> </a><p><b>status</b>: Active</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/claim-type institutional}">Institutional</span></p><p><b>subType</b>: <span title="Codes:{https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types rehabilitation-convention}">rehabilitation-convention</span></p><p><b>use</b>: Preauthorization</p><p><b>patient</b>: <a href="Bundle-ex33.html#urn-uuid-a52efcb6-1f81-4333-a115-d45bd3183686">Bundle: type = message; timestamp = 2024-05-08 11:15:33+0200</a></p><p><b>created</b>: 2024-05-08 11:15:30+0200</p><p><b>enterer</b>: <a href="Bundle-ex33.html#urn-uuid-1dc5d974-5447-4afe-a4ab-57081ca518c3">Bundle: type = message; timestamp = 2024-05-08 11:15:33+0200</a></p><p><b>provider</b>: <a href="Bundle-ex33.html#urn-uuid-1dc5d974-5447-4afe-a4ab-57081ca518c3">Bundle: type = message; timestamp = 2024-05-08 11:15:33+0200</a></p><p><b>priority</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/processpriority normal}">Normal</span></p><h3>SupportingInfos</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Sequence</b></td><td><b>Category</b></td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td style="display: none">*</td><td>1</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/claiminformationcategory attachment}">Attachment</span></td><td><span title="Codes:{https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/annex-types 776100}">7.76.1 - Sequelae of female genital mutilation</span></td><td>application/pdf: QW5uZXhlIGlubGluZSwgYmFzZTY0ZWQ=</td></tr></table><h3>Insurances</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Sequence</b></td><td><b>Focal</b></td><td><b>Coverage</b></td></tr><tr><td style="display: none">*</td><td>1</td><td>true</td><td>use of mandatory insurance coverage, no further details provided here.</td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
+            <code value="institutional"/>
+          </coding>
+        </type>
+        <subType>
+          <coding>
+            <system
+                    value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"/>
+            <!--  list has to be extended -->
+            <code value="rehabilitation-convention"/>
+          </coding>
+        </subType>
+        <use value="preauthorization"/>
+        <!-- where the provision of goods and services is proposed and authorization and/or the reservation of funds is desired. -->
+        <patient>
+          <reference value="urn:uuid:a52efcb6-1f81-4333-a115-d45bd3183686"/>
+        </patient>
+        <created value="2024-05-08T11:15:30+02:00"/>
+        <enterer>
+          <reference value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
+        </enterer>
+        <provider>
+          <reference value="urn:uuid:1dc5d974-5447-4afe-a4ab-57081ca518c3"/>
+        </provider>
+        <priority>
+          <coding>
+            <system
+                    value="http://terminology.hl7.org/CodeSystem/processpriority"/>
+            <code value="normal"/>
+          </coding>
+        </priority>
+        <supportingInfo>
+          <sequence value="1"/>
+          <category>
+            <coding>
+              <system
+                      value="http://terminology.hl7.org/CodeSystem/claiminformationcategory"/>
+              <code value="attachment"/>
+            </coding>
+          </category>
+          <code>
+            <coding>
+              <system
+                      value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/annex-types"/>
+              <code value="776100"/>
+            </coding>
+          </code>
+          <valueAttachment>
+            <contentType value="application/pdf"/>
+            <data value="QW5uZXhlIGlubGluZSwgYmFzZTY0ZWQ="/>
+          </valueAttachment>
+        </supportingInfo>
+        <insurance>
+          <sequence value="1"/>
+          <focal value="true"/>
+          <coverage>
+            <display
+                     value="use of mandatory insurance coverage, no further details provided here."/>
+          </coverage>
+        </insurance>
+        <item>
+          <sequence value="1"/>
+          <productOrService>
+            <coding>
+              <system
+                      value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/annex-types"/>
+              <code value="776100"/>
+            </coding>
+          </productOrService>
+        </item>
+      </Claim>
+    </resource>
+  </entry>
 </Bundle>
