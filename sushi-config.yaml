@@ -5,7 +5,7 @@ applyExtensionMetadataToRoot: false
 id: hl7.fhir.be.mycarenet
 name: Belgian MyCareNet Profiles
 title: Belgian MyCareNet Profiles
-status: active
+status: draft
 version: 2.1.0
 copyrightYear: 2022+
 releaseLabel: STU
