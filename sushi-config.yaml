@@ -6,11 +6,11 @@ id: hl7.fhir.be.mycarenet
 name: Belgian MyCareNet Profiles
 title: Belgian MyCareNet Profiles
 status: active
-version: 2.1.2
+version: 2.2.0
 copyrightYear: 2022+
 releaseLabel: STU
 jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
-date: 2025-02-17
+date: 2026-03-09
 # The publisher can be a single item or a list, each with a name and
 # optional url and/or email. The first publisher's name will be used
 # as IG.publisher.  The contact details and/or additional publishers
