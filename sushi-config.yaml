@@ -209,4 +209,10 @@ resources:
   Bundle/ex34:
     name: ex34
     description: FHIR Light eAgreement Reject Response
+  Bundle/ex35:
+    name: ex35
+    description: FHIR Light eAgreementAskResponse with an agreement response
+  Bundle/ex36:
+    name: ex36
+    description: FHIR Light eAgreementAskResponse with a refusal response
   
