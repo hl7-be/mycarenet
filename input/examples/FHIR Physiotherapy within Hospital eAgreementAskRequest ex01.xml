@@ -274,9 +274,6 @@
           <start value="2020-01-15"/>
         </billablePeriod>
         <created value="2015-07-14T11:15:30+02:00"/>
-        <enterer>
-          <reference value="urn:uuid:62c7bfad-0cb3-4a39-9abb-3a62e06de834"/>
-        </enterer>
         <provider>
           <reference value="urn:uuid:62c7bfad-0cb3-4a39-9abb-3a62e06de834"/>
         </provider>
