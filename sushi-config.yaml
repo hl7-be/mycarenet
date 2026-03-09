@@ -176,12 +176,12 @@ resources:
   Bundle/ex23: 
     name: ex23 
     description: FHIR Speechtherapy eAgreementCancelResponse 
-  Bundle/ex24: 
-    name: ex24 
-    description: FHIR Speechtherapy eAgreementCompleteRequest 
-  Bundle/ex25: 
-    name: ex25 
-    description: FHIR Speechtherapy eAgreementCompleteResponse 
+  #Bundle/ex24: 
+    #name: ex24 
+    #description: FHIR Speechtherapy eAgreementCompleteRequest 
+  #Bundle/ex25: 
+    #name: ex25 
+    #description: FHIR Speechtherapy eAgreementCompleteResponse 
   Bundle/ex26: 
     name: ex26 
     description: FHIR Speechtherapy eAgreementConsultRequest 
@@ -200,9 +200,9 @@ resources:
   Bundle/ex31: 
     name: ex31 
     description: FHIR Speechtherapy eAgreementRejectResponse
-  Bundle/ex32:
-    name: ex32
-    description: FHIR Speechtherapy eAgreementAskResponse for treatment with a partial agreement response
+  #Bundle/ex32:
+    #name: ex32
+    #description: FHIR Speechtherapy eAgreementAskResponse for treatment with a partial agreement response
   Bundle/ex33:
     name: ex33
     description: FHIR Light eAgreement Ask Request
