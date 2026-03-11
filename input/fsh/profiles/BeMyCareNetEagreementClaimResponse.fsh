@@ -29,7 +29,7 @@ Description: "Claimresponse profile for use in the different eAgreement flows fr
 * requestor only Reference(BeOrganization or BePractitioner or BePractitionerRole)
 * requestor.reference 1..
 * outcome MS
-* preAuthRef 1.. MS
+* preAuthRef MS
 * preAuthPeriod MS
 * preAuthPeriod.start 1..
 * item.adjudication ..1 MS
