@@ -37,8 +37,6 @@
    <li>Generalities on this page</li> 
    <li>Content specifics on the <a href="./guidance.html">Guidance page</a></li>   
    <li><a href="./artifacts.html#structures-resource-profiles">Resource Belgian MyCareNet profiles</a>, which constitute the basis for Belgian MyCareNet FHIR profiling and can be reused in other profiles </li>
-   <li><a href="./artifacts.html#terminology-value-sets">Value Sets</a>, containing specific Belgian MyCareNet value sets</li>
-   <li><a href="./artifacts.html#terminology-code-systems">Code Systems</a>, containing specific Belgian MyCareNet code systems</li> 
    <li><a href="./artifacts.html#example-example-instances">Examples</a>, note every effort has been made to ensure the examples are correct and useful, but they are not a normative part of the specification.</li>
   </ul>
   

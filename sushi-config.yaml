@@ -62,9 +62,9 @@ menu:
   Home: index.html
   Guidance: guidance.html
   Artifacts:
-    Profiles: artifacts.html#2
-    Extensions: artifacts.html#3
-    Value Sets: artifacts.html#4
+    Logical Models: artifacts.html#2
+    Profiles: artifacts.html#3
+    Extensions: artifacts.html#4
   Downloads: downloads.html
   Changes: changes.html
   History: "https://www.ehealth.fgov.be/standards/fhir/mycarenet/history.html"
