@@ -17,7 +17,7 @@ Description: "Claimresponse profile for use in the different eAgreement flows fr
 * subType 1.. MS
 * subType.coding 1..1
 * subType.coding.system 1..
-* subType.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"
+* subType.coding.system = "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-agreement-types"
 * subType.coding.code 1..
 * use MS
 * patient only Reference(BePatient)
@@ -35,15 +35,15 @@ Description: "Claimresponse profile for use in the different eAgreement flows fr
 * item.adjudication ..1 MS
 * item.adjudication.category.coding 1..1
 * item.adjudication.category.coding.system 1..
-* item.adjudication.category.coding.system = "https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/decision-values"
+* item.adjudication.category.coding.system = "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-decision-values"
 * item.adjudication.category.coding.code 1..
 * item.adjudication.reason.coding 1..1
-* item.adjudication.reason.coding from BeEAgreementAdjudicationReason (extensible)
+* item.adjudication.reason.coding from $BeVSEAgreementAdjudicationReason (extensible)
 * item.adjudication.reason.coding.system 1..
 * item.adjudication.reason.coding.code 1..
 * addItem MS
 * addItem.itemSequence 1..1 MS
-* addItem.productOrService from BeProductOrServiceNihdiEAgreement (extensible)
+* addItem.productOrService from $BeVSProductOrServiceNihdiEAgreement (extensible)
 * addItem.productOrService.coding 1..1
 * addItem.productOrService.coding.system 1..
 * addItem.productOrService.coding.code 1..

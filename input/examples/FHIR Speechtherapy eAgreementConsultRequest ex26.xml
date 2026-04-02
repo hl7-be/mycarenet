@@ -96,7 +96,7 @@
         <parameter>
           <name value="subType"/>
           <valueCoding>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/agreement-types"/>
             <code value="speechtherapy"/>
           </valueCoding>
         </parameter>

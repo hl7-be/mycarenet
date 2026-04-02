@@ -211,7 +211,7 @@
               </type>
               <subType>
                 <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"/>
+                  <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-agreement-types"/>
                   <code value="physiotherapy-fb"/>
                 </coding>
               </subType>
@@ -236,14 +236,14 @@
                 <itemSequence value="1"/>
                 <productOrService>
                   <coding>
-                    <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-physiotherapy-pathologysituationcode"/>
+                    <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-nihdi-physiotherapy-pathologysituationcode"/>
                     <code value="fb-51"/>
                   </coding>
                 </productOrService>
                 <adjudication>
                   <category>
                     <coding>
-                      <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/decision-values"/>
+                      <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-decision-values"/>
                       <code value="agreement"/>
                     </coding>
                   </category>
@@ -272,7 +272,7 @@
               </type>
               <subType>
                 <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-types"/>
+                  <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-agreement-types"/>
                   <code value="physiotherapy-fb"/>
                 </coding>
               </subType>
@@ -293,14 +293,14 @@
                 <itemSequence value="1"/>
                 <productOrService>
                   <coding>
-                    <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/nihdi-physiotherapy-pathologysituationcode"/>
+                    <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-nihdi-physiotherapy-pathologysituationcode"/>
                     <code value="fb-51"/>
                   </coding>
                 </productOrService>
                 <adjudication>
                   <category>
                     <coding>
-                      <system value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/decision-values"/>
+                      <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-decision-values"/>
                       <code value="intreatment"/>
                     </coding>
                   </category>
