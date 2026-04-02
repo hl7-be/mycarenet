@@ -272,7 +272,7 @@
           <sequence value="1"/>
           <productOrService>
             <coding>
-              <system value="https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-speech-therapy-pathology-situation-code"/>
+              <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-speech-therapy-pathology-situation-code"/>
               <code value="d"/>
             </coding>
           </productOrService>
