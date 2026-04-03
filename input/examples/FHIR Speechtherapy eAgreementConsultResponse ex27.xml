@@ -211,7 +211,7 @@
               </type>
               <subType>
                 <coding>
-                  <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-agreement-types"/>
+                  <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-agreement-types"/>
                   <code value="speechtherapy-treatment"/>
                 </coding>
               </subType>
@@ -243,7 +243,7 @@
                 <adjudication>
                   <category>
                     <coding>
-                      <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-decision-values"/>
+                      <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-decision-values"/>
                       <code value="agreement"/>
                     </coding>
                   </category>

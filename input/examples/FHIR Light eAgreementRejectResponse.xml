@@ -16,7 +16,7 @@
 					<profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-messageheader"/>
 				</meta>
 				<eventCoding>
-					<system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-message-events"/>
+					<system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-message-events"/>
 					<code value="reject"/>
 				</eventCoding>
 				<destination>
@@ -94,7 +94,7 @@
 					<code value="structure"/>
 					<details>
 						<coding>
-							<system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-agreement-errors"/>
+							<system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-agreement-errors"/>
 							<code value="MISSING_PRACTITIONERROLE_PRACTITIONER_REFERENCE"/>
 						</coding>
 					</details>

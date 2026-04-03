@@ -18,7 +18,7 @@ Description: "Claim profile for use in the different eAgreement flow from MyCare
 * insurance.sequence = 1 (exactly)
 * item MS
 * item.productOrService.coding 1..1
-* item.productOrService.coding from $BeVSProductOrServiceNihdiEAgreement (extensible)
+* item.productOrService.coding from $BeVSMyCareNetProductOrServiceNihdiEAgreement (extensible)
 * item.productOrService.coding.code 1..
 * item.productOrService.coding.system 1..
 * item.serviced[x] only date
@@ -47,7 +47,7 @@ Description: "Claim profile for use in the different eAgreement flow from MyCare
 * subType.coding.code ^mustSupport = false
 * subType.coding.code 1..
 * subType.coding.system ^mustSupport = false
-* subType.coding.system = "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-agreement-types"
+* subType.coding.system = $BeCSMyCareNetAgreementTypes
 * subType.coding.system 1..
 * supportingInfo MS
 * supportingInfo.category MS

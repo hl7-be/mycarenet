@@ -15,7 +15,7 @@
           <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-messageheader"/>
         </meta>
         <eventCoding>
-          <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-message-events"/>
+          <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-message-events"/>
           <code value="claimresponse-decide"/>
         </eventCoding>
         <destination>
@@ -138,7 +138,7 @@
         </type>
         <subType>
           <coding>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-agreement-types"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-agreement-types"/>
             <code value="speechtherapy-treatment"/>
           </coding>
         </subType>
@@ -170,7 +170,7 @@
           <adjudication>
             <category>
               <coding>
-                <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-decision-values"/>
+                <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-decision-values"/>
                 <code value="agreement"/>
               </coding>
             </category>

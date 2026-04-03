@@ -16,7 +16,7 @@
           <profile value="https://www.ehealth.fgov.be/standards/fhir/mycarenet/StructureDefinition/be-messageheader"/>
         </meta>
         <eventCoding>
-          <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-message-events"/>
+          <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-message-events"/>
           <code value="claim-ask"/>
         </eventCoding>
         <destination>
@@ -262,7 +262,7 @@
         </type>
         <subType>
           <coding>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-agreement-types"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-agreement-types"/>
             <code value="physiotherapy-fb"/>
           </coding>
         </subType>
@@ -299,7 +299,7 @@
           </category>
           <code>
             <coding>
-              <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-annex-types"/>
+              <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-annex-types"/>
               <code value="functional-report"/>
             </coding>
           </code>
@@ -342,7 +342,7 @@
           <sequence value="1"/>
           <productOrService>
             <coding>
-              <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-nihdi-physiotherapy-pathologysituationcode"/>
+              <system value="https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-mycarenet-nihdi-physiotherapy-pathologysituationcode"/>
               <code value="fb-51"/>
             </coding>
           </productOrService>
