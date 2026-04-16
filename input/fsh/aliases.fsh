@@ -12,3 +12,5 @@ Alias: $decision-values = https://www.ehealth.fgov.be/standards/fhir/mycarenet/C
 Alias: $refusal-values = https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/refusal-values
 Alias: $agreement-errors = https://www.ehealth.fgov.be/standards/fhir/mycarenet/CodeSystem/agreement-errors
 Alias: $eattestid = https://www.mycarenet.be/eattest
+Alias: $BeVSSpeechTherapyPathologySituationCode = https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/ValueSet/be-vs-speech-therapy-pathology-situation-code
+Alias: $BeCSSpeechTherapyPathologySituationCode = https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/CodeSystem/be-cs-speech-therapy-pathology-situation-code
