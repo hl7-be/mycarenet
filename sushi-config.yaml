@@ -36,7 +36,7 @@ pages:
     title: Home
   guidance.md:
   changes.xml:
-  downloads.xml:
+  #downloads.xml:
   
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and
@@ -66,7 +66,7 @@ menu:
     Profiles: artifacts.html#2
     Extensions: artifacts.html#3
     Value Sets: artifacts.html#4
-  Downloads: downloads.html
+  #Downloads: downloads.html
   Changes: changes.html
   History: "https://www.ehealth.fgov.be/standards/fhir/mycarenet/history.html"
 
