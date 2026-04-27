@@ -16,4 +16,5 @@ NIC(Nationaal Intermutualistisch College)/CIN(Collège Intermutualiste National.
 * #wfi-prescriptor "wfi-prescriptor"
 * #tariff "tariff"
 * #wfi-serviceprovider "wfi-serviceprovider"
-* #partialAgreement "partialAgreement"
+//removed since v2.2.0
+//* #partialAgreement "partialAgreement"

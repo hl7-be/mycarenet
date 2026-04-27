@@ -8,7 +8,7 @@ Description: "Claim profile for use in the different eAgreement flow from MyCare
 * ^version = "1.0.0"
 * billablePeriod MS
 * created MS
-* enterer 1.. MS
+* enterer MS
 * enterer only Reference(BePractitionerRole)
 * enterer.reference 1..
 * id 1.. MS

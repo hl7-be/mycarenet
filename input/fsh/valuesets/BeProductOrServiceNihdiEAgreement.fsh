@@ -7,5 +7,5 @@ Description: "NIHDI codes for use to describe eAgreement products or services in
 * ^status = #active
 * ^experimental = false
 * include codes from system NIHDIPhysiotherapyPathologySituationCode
-* include codes from system BeCSSpeechTherapyPathologySituationCode
+* include codes from system $BeCSSpeechTherapyPathologySituationCode
 * include codes from system MyCareNetAnnexTypes
