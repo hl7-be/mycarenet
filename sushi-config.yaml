@@ -5,6 +5,7 @@ applyExtensionMetadataToRoot: false
 id: hl7.fhir.be.mycarenet
 name: Belgian MyCareNet Profiles
 title: Belgian MyCareNet Profiles
+description: eHealth Platform Federal MyCareNet Profiles
 status: active
 version: 2.2.0
 copyrightYear: 2022+
@@ -36,7 +37,7 @@ pages:
     title: Home
   guidance.md:
   changes.xml:
-  #downloads.xml:
+  downloads.xml:
   
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and
@@ -66,7 +67,7 @@ menu:
     Profiles: artifacts.html#2
     Extensions: artifacts.html#3
     Value Sets: artifacts.html#4
-  #Downloads: downloads.html
+  Downloads: downloads.html
   Changes: changes.html
   History: "https://www.ehealth.fgov.be/standards/fhir/mycarenet/history.html"
 
