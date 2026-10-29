@@ -3,15 +3,15 @@ fhirVersion: 4.0.1
 FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.be.mycarenet
-name: Belgian MyCareNet Profiles
+name: MyCareNet
 title: Belgian MyCareNet Profiles
 description: eHealth Platform Federal MyCareNet Profiles
 status: active
-version: 2.2.0
+version: 2.2.1
 copyrightYear: 2022+
 releaseLabel: STU
 jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
-date: 2026-03-09
+date: 2026-10-30
 # The publisher can be a single item or a list, each with a name and
 # optional url and/or email. The first publisher's name will be used
 # as IG.publisher.  The contact details and/or additional publishers
@@ -98,6 +98,7 @@ parameters:
   pin-canonicals: pin-none
   excludettl: true
   auto-oid-root: 2.16.840.1.113883.4.642.40.200.6
+  path-expansion-params: ../../Parameters-terminology-expansion.json
 
 extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
