@@ -16,9 +16,9 @@ Description: "The profile for the demand for an agreement."
 * entry ^slicing.rules = #open
 * entry contains
     messageHeader 1..1 MS and
-    practitioner 1..* MS and
+    practitioner 0..* MS and
     claim 1..1 MS and
-    practitionerRole 1..* MS and
+    practitionerRole 0..* MS and
     organization 0..* MS and
     patient 1..1 MS and
     serviceRequest 0..* MS
