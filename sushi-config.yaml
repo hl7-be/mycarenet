@@ -32,11 +32,11 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 pages:
-  index.xml:
+  index.md:
     title: Home
   guidance.md:
-  changes.xml:
-  downloads.xml:
+  changes.md:
+  downloads.md:
   
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and
@@ -62,10 +62,10 @@ pages:
 menu:
   Home: index.html
   Guidance: guidance.html
-  Artifacts:
-    Profiles: artifacts.html#2
-    Extensions: artifacts.html#3
-    Value Sets: artifacts.html#4
+  Artifacts: artifacts.html
+    #Profiles: artifacts.html#2
+    #Extensions: artifacts.html#3
+    #Value Sets: artifacts.html#4
   Downloads: downloads.html
   Changes: changes.html
   History: "https://www.ehealth.fgov.be/standards/fhir/mycarenet/history.html"
