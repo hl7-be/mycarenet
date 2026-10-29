@@ -1,6 +1,7 @@
 Logical: BeModelEAgreement
 Parent: Element
-Id: be-model-eagreement
+Title: "eAgreement Logical Model"
+Description: "Logical model for an eAgreement"
 * serviceProvider  0..1 Identifier "NIHDI number of the service provider making the request"
 * patient  1..1 Identifier "Patient identification"
 * eAgreementType 1..1 CodeableConcept "Identification of the type of agreement (ex: Fb). A general type \"physiotherapist\" is applicable for the consultation"
