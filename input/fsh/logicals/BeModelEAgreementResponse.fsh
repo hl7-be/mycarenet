@@ -1,6 +1,7 @@
 Logical: BeModelEAgreementResponse
 Parent: Element
-Id: be-model-eagreement-response
+Title: "eAgreement Response Logical Model"
+Description: "Logical model for an eAgreement Response"
 * patient 0..1  Identifier "Patient identification"
 * rejectionReason 0..* CodeableConcept "Reason for rejection"
 * serviceProvider 0..1  Identifier "NIHDI number of the service provider/institution responsible for the request"
